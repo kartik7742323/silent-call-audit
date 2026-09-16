@@ -5,49 +5,64 @@ lead never actually spoke — and of the lead data the post-call extraction retu
 
 **→ [Open the dashboard](https://kartik7742323.github.io/silent-call-audit/)**
 
-Covers 8,723 call executions across 178 sub-accounts and 720 agents, 12–13 September 2026 (IST),
+Covers 35,766 call executions across 178 sub-accounts and 722 agents, 12–15 September 2026 (IST),
 pulled from the Bolna `/v2/agent/{agent_id}/executions` API.
 
 ## Headline
 
 | Metric | Calls |
 | --- | --- |
-| Total calls | 8,723 |
-| Connected (`status = completed`) | 4,350 · 49.9% |
-| **Silent — connected, no lead turn** | **1,350 · 31.0% of connected** |
-| Silent calls carrying at least one fabricated value | 872 · 64.6% of silent |
-| Silent calls returned as `Lead Qualification = Qualified` | 10 |
-| Silent calls returned as `Callback Request = Yes` | 32 |
+| Total calls | 35,766 |
+| Connected (`status = completed`) | 17,489 · 48.9% |
+| **Silent — connected, no lead turn** | **7,204 · 41.2% of connected** |
+| Silent calls carrying at least one fabricated value | 1,787 |
+| Silent calls returned as `Lead Qualification = Qualified` | 14 |
+| Silent calls returned as `Callback Request = Yes` | 72 |
 | Silent calls that are both | 0 |
 
-Roughly **one in three connected calls had no lead speech at all**, and two thirds of those still
-came back with concrete lead attributes attached.
+## The rate is getting worse
+
+The silent share of connected calls rose sharply over the four days:
+
+| Date (IST) | Total | Connected | Silent | Silent % of connected |
+| --- | --- | --- | --- | --- |
+| 12 Sep | 6,529 | 3,339 | 1,002 | 30.0% |
+| 13 Sep | 2,194 | 1,011 | 348 | 34.4% |
+| 14 Sep | 9,029 | 3,882 | 1,968 | **50.7%** |
+| 15 Sep | 18,014 | 9,257 | 3,886 | **42.0%** |
+
+On 14 September, **more than half** of all calls billed as connected had no lead speech in them at
+all. Volume rose 4× over the same window, so this is not a small-sample artefact.
 
 ## What counts as fabricated
 
 A value is counted as fabricated only when it is a **concrete, lead-specific claim made about a call
 in which the lead never said a word**. Deliberately excluded:
 
-- **Honest nulls** — "no information provided", "not stated", "no transcript" (956 cells). The
-  extraction correctly reporting that it had nothing to work with is not a failure.
+- **Honest nulls** — "no information provided", "not stated", "no transcript", "call did not
+  proceed". The extraction correctly reporting that it had nothing to work with is not a failure.
 - **Default negatives** — `No`, `Not Sure`, lowest sentiment score. Defensible fallbacks.
 - **Narrative summaries** — a `*_summary` field describing an unanswered call is accurate, not invented.
-- **Call metadata** — connected-date and similar, which are not extracted from speech.
+- **Call metadata and dial-attempt flags** — connected-date, `mio_ai_voice_attempted`. The attempt
+  genuinely happened regardless of whether anyone spoke.
 
-That leaves **969 fabricated cells across 872 calls**. The single largest contributor:
+That leaves **2,015 fabricated cells across 1,787 calls**:
 
 | Field | Calls | Values returned |
 | --- | --- | --- |
-| `exam_category` | 547 | `SSLC` ×528, `PUC Science` ×19 |
-| `latest_call_sentiment_score` | 164 | `2` ×161, `3` ×2 |
-| `exam_timeline` | 136 | `this year` ×118, `next year` ×17 |
-| `callback_request` | 32 | `Yes` |
-| `city` | 28 | `Pune` |
-| `english_eval` | 21 | `Weak`, `BorderLine` |
-| `lead_qualification_status` | 10 | `Qualified` |
+| `latest_call_sentiment_score` | 838 | `2` ×834, `3` ×3, `4` ×1 |
+| `exam_category` | 548 | `SSLC` ×528, `PUC Science` ×19 |
+| `exam_timeline` | 201 | `this year` ×177, `next year` ×24 |
+| `score` | 97 | `1` ×97 |
+| `city` | 86 | `Pune` ×86 |
+| `callback_request` | 72 | `Yes` ×72 |
+| `english_eval` | 54 | `Weak` ×43, `BorderLine` ×11 |
+| `interested_course` | 39 | `Undergraduate` ×30, `Masters` ×9 |
+| `lead_qualification_status` | 17 | `Qualified` ×14, `Not Qualified` ×3 |
 
-`SSLC` alone accounts for 528 of the 969 — a single mis-specified extraction prompt on one agent,
-not a systemic model failure.
+Two patterns dominate. `exam_category = SSLC` (528 calls) is a single mis-specified extraction
+prompt on one agent. `latest_call_sentiment_score = 2` (834 calls) is a sentiment judgement of a
+conversation that never happened — scoring silence as mildly negative rather than as absent.
 
 ## Defining a "silent" call
 
@@ -57,8 +72,8 @@ A call is silent when its transcript contains no `user:` speaker turn:
 /(^|\n)\s*user\s*:/i     → absent
 ```
 
-The looser test — "the transcript never contains the word *user*" — returns 1,308 and **undercounts
-by 42**. Those 42 transcripts contain the word inside the *agent's own* greeting, because a
+The looser test — "the transcript never contains the word *user*" — returns 7,141 and **undercounts
+by 63**. Those transcripts contain the word inside the *agent's own* greeting, because a
 `{full_name}` merge field fell back to the literal string `User`:
 
 ```
