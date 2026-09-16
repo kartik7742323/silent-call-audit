@@ -1,0 +1,207 @@
+<title>Wrongly Qualified Leads</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#eceff2;--surface:#fff;--surface-2:#f4f6f9;--line:#d3dae1;--line-2:#e4e9ee;
+  --ink:#15202b;--ink-2:#45566a;--muted:#6c7d8f;
+  --accent:#0d5c63;--accent-soft:#d8ebed;--accent-line:#9ecbd0;
+  --bad:#b3342a;--bad-soft:#f8e0dd;--bad-line:#e8b4ad;
+  --good:#2c6a4c;--good-soft:#dcece3;--good-line:#a8ccb8;
+  --shadow:0 1px 2px rgba(21,32,43,.06),0 4px 14px rgba(21,32,43,.05);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0d1218;--surface:#151c24;--surface-2:#1b232d;--line:#293440;--line-2:#212b35;
+  --ink:#e4ecf3;--ink-2:#a7b8c8;--muted:#7c8e9f;
+  --accent:#4fbcc7;--accent-soft:#0f3036;--accent-line:#1d4d55;
+  --bad:#e8796c;--bad-soft:#361c19;--bad-line:#5c2c26;
+  --good:#63b98c;--good-soft:#152e20;--good-line:#2c5540;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.28);
+}}
+:root[data-theme="dark"]{
+  --ground:#0d1218;--surface:#151c24;--surface-2:#1b232d;--line:#293440;--line-2:#212b35;
+  --ink:#e4ecf3;--ink-2:#a7b8c8;--muted:#7c8e9f;
+  --accent:#4fbcc7;--accent-soft:#0f3036;--accent-line:#1d4d55;
+  --bad:#e8796c;--bad-soft:#361c19;--bad-line:#5c2c26;
+  --good:#63b98c;--good-soft:#152e20;--good-line:#2c5540;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:14.5px;line-height:1.62;margin:0}
+.wrap{max-width:940px;margin:0 auto;padding-inline:22px;padding-block:0 70px}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;margin:0;text-wrap:balance;letter-spacing:-.02em}
+.num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+header{background:var(--surface);border-bottom:1px solid var(--line)}
+.hd{max-width:940px;margin:0 auto;padding:32px 22px 26px}
+h1{font-size:29px;font-weight:700}
+.stand{font-size:15.5px;color:var(--ink-2);margin-top:10px;max-width:70ch}
+.meta{display:flex;gap:8px 16px;flex-wrap:wrap;margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted)}
+section{margin-top:38px}
+h2{font-size:20px;font-weight:700;margin-bottom:6px}
+.sub{color:var(--muted);font-size:13px;max-width:76ch;margin-bottom:15px}
+p{margin:0 0 13px;max-width:70ch}p:last-child{margin-bottom:0}
+/* headline */
+.head{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.hc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;box-shadow:var(--shadow)}
+.hc.bad{border-color:var(--bad-line);background:var(--bad-soft)}
+.hc .v{font-family:Archivo,sans-serif;font-size:32px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.hc.bad .v{color:var(--bad)}
+.hc .l{font-size:13px;color:var(--ink-2);margin-top:5px;line-height:1.45}
+.hc .s{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);margin-top:4px}
+.dlrow{margin-top:14px}
+.dl{display:inline-flex;flex-direction:column;gap:2px;text-decoration:none;border:1px solid var(--accent-line);background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:10px 15px;font-size:13.5px;font-weight:700}
+.dl span{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:400;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);overflow:hidden}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{text-align:left;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:11px 15px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+td{padding:10px 15px;border-bottom:1px solid var(--line-2)}
+tbody tr:last-child td{border-bottom:0}
+td.n{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.barwrap{width:120px;background:var(--line-2);border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle}
+.bar{height:6px;background:var(--bad);min-width:2px}
+.note{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:9px;padding:14px 18px;margin-top:16px;font-size:14px;color:var(--ink-2)}
+.note b{color:var(--ink)}
+.crit{background:var(--surface-2);border:1px solid var(--line-2);border-radius:9px;padding:14px 17px;margin-top:14px;font-size:13px;line-height:1.6;color:var(--ink-2)}
+.crit b{color:var(--ink)}
+.crit .q{font-family:"IBM Plex Mono",monospace;font-size:12px;display:block;margin-top:8px;padding-left:12px;border-left:2px solid var(--accent-line)}
+/* groups */
+.grp{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:10px;box-shadow:var(--shadow);margin-top:20px;overflow:hidden}
+.gh{padding:15px 18px;border-bottom:1px solid var(--line-2)}
+.gh h3{font-size:16.5px;font-weight:700}
+.gh .cnt{display:inline-block;margin-top:8px;font-family:"IBM Plex Mono",monospace;font-size:12px;background:var(--bad-soft);color:var(--bad);border-radius:20px;padding:3px 10px;font-weight:600}
+.gb{padding:6px 18px 16px}
+.case{border-bottom:1px solid var(--line-2);padding:13px 0}
+.case:last-child{border-bottom:0}
+.ch{display:flex;gap:7px 13px;flex-wrap:wrap;align-items:baseline;font-size:12.5px;margin-bottom:7px}
+.ch .id{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--accent);font-weight:600}
+.ch .m{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+.said{font-family:"IBM Plex Mono",monospace;font-size:12px;background:var(--surface-2);border:1px solid var(--line-2);border-radius:6px;padding:9px 12px;color:var(--ink-2);word-break:break-word}
+.said em{color:var(--muted);font-style:normal}
+.verdict{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;margin-top:8px;font-size:13px}
+.got{font-weight:700;color:var(--bad)}
+.arr{color:var(--muted);font-size:12px}
+.exp{font-weight:700;color:var(--good)}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;line-height:1.6}
+@media (max-width:700px){.head{grid-template-columns:1fr}h1{font-size:24px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header>
+  <div class="hd">
+    <h1>Wrongly Qualified Leads</h1>
+    <div class="stand">Calls where the extraction returned <span class="num">lead_qualification_status = Qualified</span>
+      but the lead gave nothing the condition asks for. Measured against the qualification criteria as
+      configured in Bolna, retrieved from <span class="num">/agent/{agent_id}/extraction-categories</span>.</div>
+    <div class="meta"><span>12–15 September 2026 (IST)</span><span>17,489 connected calls</span>
+      <span>3,831 marked Qualified</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section>
+    <div class="head" id="head"></div>
+    <div class="dlrow" id="dlrow"></div>
+    <div class="crit">
+      <b>What the criteria say.</b> The condition for <b>Qualified</b> requires the lead, in their own
+      words, to do at least one of these: answer the agent's qualifying questions; provide the
+      information asked for (name, course, qualification or marks, location, availability, current
+      status); show interest or intent; ask a question about the offering; or agree to a callback.
+      It then adds an explicit exclusion:
+      <span class="q">"…do not yield this value from a bare affirmative to the opening alone
+        ('yes, go ahead,' 'sure') with no further engagement."</span>
+      And <b>Not Sure</b> is defined for exactly the opposite case:
+      <span class="q">"…yield this value only when engagement cannot be established either way — there was
+        no meaningful conversation (call disconnected early, silence, only a greeting)."</span>
+      Every case below fails the first test and matches the second.
+    </div>
+  </section>
+
+  <section>
+    <h2>Call duration</h2>
+    <div class="sub">A qualifying exchange takes time. The agent's own opening runs 8–10 seconds before
+      the lead can say anything.</div>
+    <div class="panel"><table>
+      <thead><tr><th>Call length</th><th class="n">Wrongly Qualified</th><th>Share</th></tr></thead>
+      <tbody id="band"></tbody></table></div>
+    <div class="note" id="bandnote"></div>
+  </section>
+
+  <section>
+    <h2>Where it happens</h2>
+    <div class="panel"><table>
+      <thead><tr><th>Sub-account</th><th class="n">Wrongly Qualified</th><th>Share</th></tr></thead>
+      <tbody id="subs"></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>Cases</h2>
+    <div class="sub">Grouped by what the lead actually said. Every line is verbatim; every call carries its
+      execution_id. The full set is in the CSV above.</div>
+    <div id="groups"></div>
+  </section>
+
+  <footer>
+    Each call ID is a Bolna <span class="num">execution_id</span>, retrievable via
+    <span class="num">/v2/agent/{agent_id}/executions</span>. The CSV carries all
+    <span id="cols">—</span> columns we hold per call, including the full transcript, recording URL,
+    telephony detail and every extracted value. No personal data appears on this page.
+    If a download button does nothing you are on a mirrored copy — open the hosted report at
+    <span class="num">kartik7742323.github.io/silent-call-audit/qualified.html</span>.
+  </footer>
+</div>
+
+<script>
+const D = {"total":639,"byBand":{"under 15s":227,"30-59s":107,"15-29s":297,"60s or more":8},"bySub":{"ABC":2,"Adamas University":1,"Adda 24/7":12,"ATMIA EDUCATION":129,"Christ University_6539":1,"GRD_IMT_6181":1,"Himalayan Group of Professional Institutions":2,"International Institute of Business Studies":86,"Jamboree Education_5607":1,"JECRC University_198":2,"Kalinga University Raipur":230,"Maestro (Lead Qualification)":3,"NIIT":8,"Parikshe":139,"Pimpri Chinchwad_5674":9,"RKDF University_7013":5,"SAGE University, Bhopal":3,"Samalkha Group of Institutions_6681":2,"Shoolini University_ 384":1,"Woxsen University":2},"byType":{"nobody spoke at all":18,"one- or two-word reply only":491,"answering machine / voicemail":47,"greeting / asking who is calling / prompting the agent":83},"groups":[{"case_type":"one- or two-word reply only","total":491,"samples":[{"execution_id":"8c9b7f58-9c6c-43af-a657-92798250efab","sub_account":"ABC","agent":"Test Kartik","date_ist":"2026-09-15","duration_sec":11,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"yes","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, Am I speaking with Kartik? who is interested to take admission in सीमैट और  जीमैट this year\nuser:  yes\nassistant: Greetings from IIMT Group of Colleges,"},{"execution_id":"2aaae879-af5d-427c-9569-94f1dd7a6bae","sub_account":"Adda 24/7","agent":"ADDA SSC Final - V4 Bolna Edits voice 5(Live)","date_ist":"2026-09-13","duration_sec":8,"duration_band":"under 15s","reason_code":"QUALIFIED_ONE_WORD_REPLY","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"मैं।","marked_as":"Qualified","should_be":"","full_transcript":"assistant: Hello, क्या मेरी बात Krishna Deora से हो रही है?\nuser: मैं।\nassistant: मैं शिवानी हूँ, Exam Co unselor at अड्डा twenty four seven। आपके"},{"execution_id":"e4252457-e1bd-404c-b7cf-c9c9b47dbb8b","sub_account":"ATMIA EDUCATION","agent":"Lead Qualification","date_ist":"2026-09-15","duration_sec":6,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"yeah","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, am I talking to Parth Rajesh Khole?\nuser:  yeah"},{"execution_id":"87a9d5e1-83f6-4ed3-ad5f-2a66b4cf23c1","sub_account":"International Institute of Business Studies","agent":"lead qualification english and hindi","date_ist":"2026-09-14","duration_sec":7,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"hello","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya from IIBS Bengaluru. Am I Talking to Sundus Rahmani.\nuser:  hello\nassistant: I am"},{"execution_id":"4c8eb23b-6bf1-4150-8bd7-19723b4e669f","sub_account":"Kalinga University Raipur","agent":"Final","date_ist":"2026-09-15","duration_sec":5,"duration_band":"under 15s","reason_code":"QUALIFIED_ONE_WORD_REPLY","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"मैं","marked_as":"Qualified","should_be":"","full_transcript":"assistant: Hi, I am काव्या.  Am I Talking to Aashish Kumar?\nuser:  मैं"},{"execution_id":"cf8f633e-b0fe-489d-8f9a-4d51104151f3","sub_account":"NIIT","agent":"NIIT_LQ_v8 (Live)","date_ist":"2026-09-15","duration_sec":9,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"one- or two-word reply only","lead_turns":1,"lead_words":1,"lead_said":"हां","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello. Am I Speaking to Ronakkumar ? \nuser:  हां"}]},{"case_type":"greeting / asking who is calling / prompting the agent","total":83,"samples":[{"execution_id":"7fe595f1-b0d8-4f52-bb66-05a160869199","sub_account":"ATMIA EDUCATION","agent":"Lead Qualification","date_ist":"2026-09-15","duration_sec":12,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":1,"lead_words":3,"lead_said":"yeah  hello  hello","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, am I talking to Lavanya Jayram Desai?\nuser:  yeah  hello  hello"},{"execution_id":"3d0d8afe-c0b2-4af4-9d2c-030db532c9c5","sub_account":"Christ University_6539","agent":"Christ University - Testing V2","date_ist":"2026-09-12","duration_sec":43,"duration_band":"30-59s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":2,"lead_words":3,"lead_said":"hello | हां जी","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, Kasif. This is Tara calling from Christ University regarding our Online Degree programmes. Is this a good time to talk?\nuser:  hello\nassistant:  Perfect! I can help to share the program details, admission process and eligibility that may apply to you. Would you like to proceed forward with the conversation?\nuser:  हां जी\nassistant: Thank you. To begin with, could you share your highest qualification that you have completed?"},{"execution_id":"a0562560-a996-4ed0-a2de-674109624d21","sub_account":"International Institute of Business Studies","agent":"lead qualification english and hindi","date_ist":"2026-09-14","duration_sec":16,"duration_band":"15-29s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":1,"lead_words":3,"lead_said":"yes who is","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya from IIBS Bengaluru. Am I Talking to Nicky Sahu.\nuser:  yes who is\nassistant: I am calling regarding your enquiry about our programmes and admissions for the twenty twent y six academic session. May I take a"},{"execution_id":"eebdd415-483e-4a3f-bc63-3b53804bfe8d","sub_account":"Kalinga University Raipur","agent":"Final","date_ist":"2026-09-15","duration_sec":15,"duration_band":"15-29s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":1,"lead_words":3,"lead_said":"who is this","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am काव्या.  Am I Talking to Applicant?\nuser:  who is this\nassistant: You had shown interest regarding admissions or programmes at Kalinga University through o ne of our official platforms, so I’m just"},{"execution_id":"746a1126-9d14-4744-8b72-e17418d2dfe5","sub_account":"Parikshe","agent":"Lead Qualification","date_ist":"2026-09-12","duration_sec":15,"duration_band":"15-29s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":1,"lead_words":3,"lead_said":"Who are you?","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya. Am I Talking to Rohin ?\nuser: Who are you?\nassistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation"},{"execution_id":"04c247cf-a326-4c94-927c-c89030abaf71","sub_account":"Pimpri Chinchwad_5674","agent":"Pimpri Chinchwad - Live","date_ist":"2026-09-12","duration_sec":28,"duration_band":"15-29s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"greeting / asking who is calling / prompting the agent","lead_turns":2,"lead_words":3,"lead_said":"हां | हां yeah","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi! I am career expert calling from P C U, पुणे. Am I speaking with Deepak Wadkar?  \nuser:  हां\nassistant:  Thank you. You have shown interest in our admissions for the academic year Twenty Twenty Six - Twenty Twenty Seven, so I am calling to welcome you and guide you further. Can I take 2–3 minutes?\nuser:  हां yeah\nassistant: Okay. Could you share the particular program that you are interested in pursuing at P C U, Pune?"}]},{"case_type":"answering machine / voicemail","total":47,"samples":[{"execution_id":"a8cddab7-bd53-46f6-a912-c15e3dd58be7","sub_account":"Kalinga University Raipur","agent":"Final","date_ist":"2026-09-15","duration_sec":20,"duration_band":"15-29s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":1,"lead_words":7,"lead_said":"record your name and reason for calling","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am काव्या.  Am I Talking to Bhupesh Kumar?\nuser:  record your name and reason for calling\nassistant: You had shown interest regarding admissions or programmes at Kalinga University through one of our official platforms, so I’m just reaching out to assist you with basic admission- related information. May I know if this is a good time to talk?"},{"execution_id":"e8e03181-fcc2-455c-9913-2b22f37cbc52","sub_account":"NIIT","agent":"NIIT_ICICI_LQ(Live)","date_ist":"2026-09-15","duration_sec":4,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":1,"lead_words":7,"lead_said":"your call has been forwarded to voicemail","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, am I talking to Salan?\nuser:  your call has been forwarded to voicemail"},{"execution_id":"0fe0a735-8157-449d-bb99-0b7bada96605","sub_account":"ATMIA EDUCATION","agent":"Lead Qualification","date_ist":"2026-09-15","duration_sec":6,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":1,"lead_words":9,"lead_said":"if you record your name and reason for calling","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, am I talking to Ayaan Nazim Amruskar?\nuser:  if you record your name and reason for calling"},{"execution_id":"ecf1bdc8-8b7a-4252-8542-3bddc56dbe0b","sub_account":"RKDF University_7013","agent":"Lead Reactivation","date_ist":"2026-09-12","duration_sec":5,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":2,"lead_words":9,"lead_said":"hi | you record your name and reason for calling","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello.\nuser:  hi\nuser:  you record your name and reason for calling"},{"execution_id":"1c7d6389-3d57-44b3-8546-6c7e9d935406","sub_account":"International Institute of Business Studies","agent":"lead qualification english and hindi","date_ist":"2026-09-14","duration_sec":6,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":1,"lead_words":13,"lead_said":"you record your name and reason for calling i'll see if this person","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya from IIBS Bengaluru. Am I Talking to Thomas Daniel.\nuser:  you record your name and reason for calling i'll see if this person"},{"execution_id":"ccdd926e-f3db-470c-9f16-109c8e1a8c17","sub_account":"GRD_IMT_6181","agent":"Lead Qualification Live","date_ist":"2026-09-13","duration_sec":7,"duration_band":"under 15s","reason_code":"QUALIFIED_NO_ENGAGEMENT","case_type":"answering machine / voicemail","lead_turns":1,"lead_words":16,"lead_said":"if you record your name and reason for calling i'll see if this person is available","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, I am Alina. Am I Talking to Mannnuuuu?\nuser:  if you record your name and reason for calling i'll see if this person is available"}]},{"case_type":"nobody spoke at all","total":18,"samples":[{"execution_id":"1e231bf2-12e5-485f-b5bc-aab43fc47bb0","sub_account":"ABC","agent":"qa test","date_ist":"2026-09-14","duration_sec":2,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Not Qualified","should_be":"Not Qualified","full_transcript":"assistant: Hi I am Dhananjay, an development agent for testing ,,,"},{"execution_id":"f2877ad0-bedc-4119-84e1-ad423fb969f8","sub_account":"Adda 24/7","agent":"ADDA SSC Final - V4 Bolna Edits voice 5(Live)","date_ist":"2026-09-13","duration_sec":4,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hello, क्या मेरी बात Akash Toppo से हो रही है?"},{"execution_id":"88ad49e7-e56c-4543-ab6e-805db4928a0c","sub_account":"International Institute of Business Studies","agent":"lead qualification english and hindi","date_ist":"2026-09-14","duration_sec":6,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya from IIBS Bengaluru. Am I Talking to Spandana S.j Spandana."},{"execution_id":"16389152-b4b1-4fc0-a78a-94eeddba776f","sub_account":"Kalinga University Raipur","agent":"Final","date_ist":"2026-09-15","duration_sec":3,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am काव्या.  Am I Talking to Chartered Commerce?"},{"execution_id":"346301ec-ca11-4305-bfdd-4d76b63c0ae3","sub_account":"Maestro (Lead Qualification)","agent":"Pixi - Inbound","date_ist":"2026-09-15","duration_sec":4,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Not Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, am I speaking with Nikhilesh?"},{"execution_id":"ddaf837e-bf25-4aa8-9f1e-65afe0b2626d","sub_account":"Parikshe","agent":"Lead Qualification","date_ist":"2026-09-12","duration_sec":3,"duration_band":"under 15s","reason_code":"NO_USER_SPEECH","case_type":"nobody spoke at all","lead_turns":0,"lead_words":0,"lead_said":"","marked_as":"Qualified","should_be":"Not Sure","full_transcript":"assistant: Hi, I am Riya. Am I Talking to Laxmi Lakkappa Mulimani ?"}]}],"download":{"file":"wrongly-qualified-leads.csv","rows":639,"size":"771 KB","cols":248}};
+const BASE='https://kartik7742323.github.io/silent-call-audit/data/';
+const fmt=n=>n.toLocaleString('en-IN');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const QUALIFIED_TOTAL=3831;
+
+document.getElementById('head').innerHTML=[
+  ['bad', fmt(D.total), 'leads marked <b>Qualified</b> that should not have been', (D.total/QUALIFIED_TOTAL*100).toFixed(1)+'% of all Qualified leads'],
+  ['', '1 in '+Math.round(QUALIFIED_TOTAL/D.total), 'Qualified leads is wrong', 'out of '+fmt(QUALIFIED_TOTAL)+' marked Qualified'],
+  ['', fmt((D.byBand['under 15s']||0)+(D.byBand['15-29s']||0)), 'of them on calls under 30 seconds',
+   Math.round(((D.byBand['under 15s']||0)+(D.byBand['15-29s']||0))/D.total*100)+'% of the wrongly qualified'],
+].map(([cls,v,l,s])=>`<div class="hc ${cls}"><div class="v num">${v}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join('');
+
+document.getElementById('dlrow').innerHTML=
+  `<a class="dl" href="${BASE}${esc(D.download.file)}" download>Download all ${fmt(D.download.rows)} cases (CSV)
+    <span>${esc(D.download.size)} · ${D.download.cols} columns · every Bolna field per call</span></a>`;
+document.getElementById('cols').textContent=D.download.cols;
+
+const BANDS=['under 15s','15-29s','30-59s','60s or more'];
+const maxB=Math.max(...BANDS.map(b=>D.byBand[b]||0));
+document.getElementById('band').innerHTML=BANDS.filter(b=>D.byBand[b]).map(b=>`<tr>
+  <td><b>${b}</b></td><td class="n">${fmt(D.byBand[b])}</td>
+  <td><div class="barwrap"><div class="bar" style="width:${Math.max(2,(D.byBand[b]/maxB)*100)}%"></div></div>
+    <span class="num" style="font-size:11.5px;color:var(--muted);margin-left:9px">${(D.byBand[b]/D.total*100).toFixed(0)}%</span></td></tr>`).join('');
+const short=(D.byBand['under 15s']||0)+(D.byBand['15-29s']||0);
+document.getElementById('bandnote').innerHTML=
+  `<b>${fmt(short)} of ${fmt(D.total)} — ${Math.round(short/D.total*100)}% — are calls shorter than 30 seconds.</b>
+   On a call that short the agent is still delivering its opening; there is no room for the lead to give a
+   course, marks, a location or a question about the offering. Call length alone is not proof, which is why
+   every case here is judged on what the lead actually said — but the concentration is the pattern.`;
+
+const subs=Object.entries(D.bySub).sort((a,b)=>b[1]-a[1]);
+const maxS=subs[0][1];
+document.getElementById('subs').innerHTML=subs.slice(0,12).map(([s,n])=>`<tr>
+  <td>${esc(s)}</td><td class="n">${fmt(n)}</td>
+  <td><div class="barwrap"><div class="bar" style="width:${Math.max(2,(n/maxS)*100)}%"></div></div>
+    <span class="num" style="font-size:11.5px;color:var(--muted);margin-left:9px">${(n/D.total*100).toFixed(0)}%</span></td></tr>`).join('');
+
+document.getElementById('groups').innerHTML=D.groups.filter(g=>g.total>0).map(g=>`
+  <div class="grp">
+    <div class="gh"><h3>${esc(g.case_type[0].toUpperCase()+g.case_type.slice(1))}</h3>
+      <div class="cnt">${fmt(g.total)} case${g.total===1?'':'s'}</div></div>
+    <div class="gb">${g.samples.map(s=>`
+      <div class="case">
+        <div class="ch"><span class="id">${esc(s.execution_id)}</span>
+          <span class="m">${esc(s.sub_account)}</span><span class="m">${esc(s.agent)}</span>
+          <span class="m">${s.duration_sec}s</span>
+          <span class="m">${s.lead_turns} turn${s.lead_turns===1?'':'s'}, ${s.lead_words} word${s.lead_words===1?'':'s'}</span>
+          <span class="m">${esc(s.date_ist)}</span></div>
+        <div class="said">${s.lead_said?esc(s.lead_said):'<em>(the lead said nothing at all)</em>'}</div>
+        <div class="verdict"><span class="got">${esc(s.marked_as)}</span>
+          <span class="arr">should be</span><span class="exp">${esc(s.should_be)}</span></div>
+      </div>`).join('')}</div>
+  </div>`).join('');
+</script>
