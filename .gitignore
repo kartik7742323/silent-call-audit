@@ -2,3 +2,6 @@
 *.jsonl
 _*.json
 node_modules/
+
+# published, sanitised extracts (no phone numbers or names)
+!data/*.csv

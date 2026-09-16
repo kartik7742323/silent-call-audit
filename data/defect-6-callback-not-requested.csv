@@ -1,0 +1,423 @@
+﻿reason_code,field_wrongly_marked,value_returned,value_expected,why_it_is_wrong,execution_id,batch_id,created_at_utc,updated_at_utc,call_type,provider,telephony_duration_sec,ring_duration_sec,hangup_by,hangup_reason,to_number_carrier,provider_call_id,total_cost,sub_account_name,agent_name,agent_id,duration_sec,transcript,recording_url,status,date_ist,extracted_data_latest_call_sentiment_score,extracted_data_callback_request,extracted_data_call_summary,extracted_data_lead_qualification_status,extracted_data_highest_qualification,extracted_data_callback_time,extracted_data_course_preference,extracted_data_highest_qualification_score,extracted_data_specialization,extracted_data_class12_score,extracted_data_first_round_allotment_status,extracted_data_neet_status,extracted_data_program_interested,extracted_data_city_name,extracted_data_score,extracted_data_state_name,extracted_data_enrollment_interest,extracted_data_exam_category,extracted_data_existing_coaching,extracted_data_parikshe_awareness,extracted_data_structured_course_interest,extracted_data_coaching_enrollment,extracted_data_preparation_duration,extracted_data_preparation_method,extracted_data_target_examination,extracted_data_city,extracted_data_application_followup_outcome,extracted_data_form_not_filled_reason,extracted_data_expected_form_completion_date,extracted_data_interested_to_complete_form,extracted_data_callback_date_and_time,extracted_data_information_sharing_preference,extracted_data_demo_interest,extracted_data_mio_ai_voice_attempted,extracted_data_reason,extracted_data_candidate_relationship,extracted_data_candidate_profile,extracted_data_exam_attempts,extracted_data_exam_timeline,extracted_data_exam_type,extracted_data_interested_test,extracted_data_number_of_hours_studied,extracted_data_graduation_score,extracted_data_admission_interest,extracted_data_summary,extracted_data_12th_score,extracted_data_entrance_exam,extracted_data_entrance_exam_name,extracted_data_entrance_score,extracted_data_twelfth_stream,extracted_data_work_experience,extracted_data_date_of_birth,extracted_data_english_eval,extracted_data_graduation_completion_year,extracted_data_callback_request_time,extracted_data_campus_engagement_interest,extracted_data_counselling_mode,extracted_data_entrance_exam_appeared,extracted_data_interested_in_admission,extracted_data_program_interest,extracted_data_country,extracted_data_budget,extracted_data_course_interested,extracted_data_board,extracted_data_course,extracted_data_intake,extracted_data_masters_program,extracted_data_target_program,extracted_data_user_type,extracted_data_graduation_cgpa,extracted_data_graduation_percentage_score,extracted_data_interested_course,extracted_data_education_gap_year,extracted_data_education_mode,extracted_data_family_member_working_at_icici_bank,extracted_data_percentage_score,extracted_data_prior_icici_association,extracted_data_relocation_willingness,extracted_data_additional_country,extracted_data_budget_constraint,extracted_data_cgpa_percentage,extracted_data_english_proficiency_score,extracted_data_preferred_country,extracted_data_preferred_university,extracted_data_stream_interested,extracted_data_study_abroad_interest,extracted_data_admission_plan,extracted_data_call_outside_office_hours,extracted_data_field_course,extracted_data_passport_available,extracted_data_qual_ayu,extracted_data_scholarship_loan,extracted_data_education_level,extracted_data_english_test_type,extracted_data_funding_options,extracted_data_has_passport,extracted_data_study_location,extracted_data_target_universities,extracted_data_family_member_working_at_axis_bank,extracted_data_hostel_preference,extracted_data_interested,extracted_data_mio_voice_call_connected_date,extracted_data_admission_comfortability,extracted_data_counselling_assistance,extracted_data_twelfth_score,extracted_data_disciplinary_legal_history,extracted_data_diploma_score,extracted_data_location,extracted_data_qualification,extracted_data_family_member_working_at_axis_max_life_insurance,extracted_data_elsewhere_college,extracted_data_interested_location,extracted_data_link_resend,extracted_data_stream,extracted_data_ielts_purpose,extracted_data_target_sat_score,extracted_data_toefl_purpose,extracted_data_lead_status,extracted_data_twelfth_subjects,extracted_data_admission_year,extracted_data_12th_status,extracted_data_eleventh_grade_percentage,extracted_data_cf_ai_call_summary,extracted_data_grade,extracted_data_interest_to_complete_form,extracted_data_academic_detail,extracted_data_12th_expected_score,extracted_data_board_university,extracted_data_course_interest,extracted_data_wat_exam,extracted_data_12th_marks,extracted_data_user_query,extracted_data_dgca_medical_status,extracted_data_entrance_exam_score,extracted_data_math_marks,extracted_data_physics_marks,extracted_data_pilot_interest,extracted_data_training_timeline,extracted_data_ug_cgpa,extracted_data_wjeet_exam,extracted_data_wlat_exam,extracted_data_awareness,extracted_data_call_connected_date,extracted_data_call_language,extracted_data_competitor,extracted_data_degree_mode,extracted_data_drop_reason,extracted_data_interaction_date_time,extracted_data_interaction_mode,extracted_data_jee_mains,extracted_data_mio_voice_agent_name,extracted_data_pilot_training_enquiry,extracted_data_stream_interested_in,extracted_data_twelfth_grade_score,extracted_data_wjeet_planned,extracted_data_attendance_mode,extracted_data_engineering_interest,extracted_data_expected_arrival,extracted_data_interested_to_visit,extracted_data_walkin_outcome,extracted_data_12th_stream,extracted_data_interested_program,extracted_data_send_whatsapp,extracted_data_admission_team_connect,extracted_data_ai_callback_request,extracted_data_ai_form_not_filled_reason,extracted_data_ai_lead_qualification,extracted_data_ai_sentiment_score,extracted_data_callback_date,extracted_data_eleventh_score,extracted_data_expected_date_to_form_completion,extracted_data_interested_class,extracted_data_application_followup,extracted_data_application_interest,extracted_data_callback_details,extracted_data_candidate_city,extracted_data_candidate_class,extracted_data_candidate_stream,extracted_data_challenge,extracted_data_city_information,extracted_data_connect_day,extracted_data_course_level,extracted_data_entrance_exam_information,extracted_data_interested_in_axis_bank_training_program,extracted_data_preferred_campus,extracted_data_preferred_city,extracted_data_preferred_language,extracted_data_study_source,extracted_data_target_university,extracted_data_target_year,extracted_data_training_mode,extracted_data_user_role,extracted_data_vsat_consent,extracted_data_admission_status,extracted_data_agent_id,extracted_data_agent_question,extracted_data_bachelors_completed,extracted_data_call_date_time,extracted_data_callback,extracted_data_campus_visit,extracted_data_campus_visit_request_time,extracted_data_career_interests,extracted_data_class_interested,extracted_data_counselor_connect,extracted_data_current_qualification,extracted_data_entrance_exam_status,extracted_data_execution_id,extracted_data_experience,extracted_data_explored_design_courses,extracted_data_feedback_outcome,extracted_data_graduation_status,extracted_data_greeting,extracted_data_pg_program_name,extracted_data_preferred_campus_location,extracted_data_program_level,extracted_data_relocation_comfort,extracted_data_scholarship_details_send,extracted_data_state,extracted_data_student_stream,extracted_data_ug_program_name,extracted_data_user_confirmation,extracted_data_years_of_experience
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,f7850223-8378-42a0-8018-c95b7ef812b2,,2026-09-15T12:12:17.585914+00:00,2026-09-15T12:15:50.121263+00:00,outbound,plivo,183,11,Plivo,end_call_tool,Aircel - Kerala,ed3dee3c-23d1-4624-aa6c-621df969629a,11.9,ABC,Malayalam demo ed tech and coaching-invisor(Dev),39efa8e8-c113-4714-b43e-c5fc533408ab,183,"assistant: ഹായ്, എന്റെ പേര് Lakshmi ആണ്, ഞാന് വിളിക്കുന്നത് XYA യൂണിവേഴ്സിറ്റിയിൽ നിന്നാണ്.  Nifan നോടാണോ ഞാന് സംസാരിക്കുന്നത്?
+user: ഇഫ്ഫാനാണ് സംസാരിക്കുന്നത്, ഞാൻ പറഞ്ഞോ?
+assistant:  ഹായ് ഇഫ്ഫാൻ, നിങ്ങൾ ഞങ്ങളുടെ courses-നെ പറ്റി അറിയാൻ interest കാണിച്ചിരുന്നു, അതിനെ പറ്റി ഒന്ന് സംസാരിക്കാനാണ് വിളിച്ചത്. ഇപ്പോൾ രണ്ട് മിനിറ്റ് സംസാരിക്കാൻ സമയം ഉണ്ടോ?
+user: ആ പറഞ്ഞോ. കുഴപ്പമില്ല.
+assistant:  Alright. നിങ്ങൾക്ക് ഏത് course-ലാണ് interest ഉള്ളേ?
+user: ഞാനേ അ.
+assistant: ക്ഷമിക്കണം, ഞാൻ ശരിയായി
+user: CMA, SSC ഒക്കെ അങ്ങനെ ആലോചിക്കുന്നു.
+assistant:  നന്ദി. നിങ്ങളുടെ highest educational qualification എന്താണ്?
+user: ഓക്കേ എന്റെ ഹൈയെസ്റ്റ് എജ്യൂക്കേഷൻ പ്ലസ് ടു ആണ്
+assistant:  Okay. നിങ്ങൾ ഇപ്പോ ഒരു student ആണോ, അതോ work  ചെയുവാണോ ?
+user: സ്റ്റുഡന്റ് ഞാൻ സ്റ്റുഡന്റ് ആണ്
+user: പ്ലസ് ടു ഉണ്ടല്ലോ
+assistant:  Okay. നിങ്ങൾക്ക് online classes വേണോ അതോ ഞങ്ങളുടെ Infopark Kochi campus-ൽ classroom training വേണോ?
+user: മ്മ്. മനസ്സിലായില്ല.
+assistant:  നിങ്ങൾക്ക് online classes വേണോ, അല്ലെങ്കിൽ Infopark Kochi campus-ൽ classroom training വേണോ എന്ന് പറയാനായിരുന്നു. നിങ്ങൾക്ക് ഏത് mode-ൽ പഠിക്കാൻ ഇഷ്ടമാണ്?
+user: ഓഫ്ലൈൻ മതി ഓൺലൈൻ വേണ്ട
+assistant:  നിങ്ങൾ CMA course-ൽ student ആയതിനാൽ, typically six to twelve months കാലയളവിൽ blended live training ലഭിക്കും, അതായത് online-ഉം offline-ഉം ഒരുമിച്ച്. ഇതിൽ internship-ഉം placement training-ഉം ഉൾപ്പെടുന്നു. കൂടുതൽ അറിയണോ?
+user: ഞാൻ എന്റെ ഉപ്പയ്ക്ക് കൊടുക്കാം. ഉപ്പ ഇവിടെ ഒന്ന് സംസാരിക്കുമോ?
+assistant:  ഞാൻ ഇപ്പോൾ ഉപ്പയോട് സംസാരിക്കാൻ തയ്യാറാണ്. ഉപ്പയെ വിളിക്കാമോ അല്ലെങ്കിൽ ഉപ്പ തന്നെ ഫോൺ കൈക്കൊണ്ടു സംസാരിക്കുമോ?
+user: പറയൂ എന്താണ്?
+assistant:   ഹായ്, ഞാൻ Lakshmi XYA-യിൽ നിന്നാണ്. നിങ്ങളുടെ മകനൊപ്പം ഞങ്ങൾ courses-നെ പറ്റി സംസാരിക്കുകയാണ്. നിങ്ങൾക്ക് എന്തെങ്കിലും ചോദിക്കാനുണ്ടോ?
+user: ഓക്കേ
+assistant:  നിങ്ങൾക്ക് courses-നെ പറ്റി എന്തെങ്കിലും അറിയണം? അല്ലെങ്കിൽ നിങ്ങളുടെ മകനെക്കുറിച്ച് എന്തെങ്കിലും വിവരങ്ങൾ ഞങ്ങൾക്ക് പറയാമോ?
+user: പ്ലസ് ടു കഴിഞ്ഞു നിൽക്കുന്ന ഒരു കുട്ടിയാണ് എന്റെ മകൻ
+assistant: നന്ദി. നിങ്ങളുടെ മകന്റെ highest educational
+user: അവൻ എന്താണ് ഫ്യൂച്ചർ?
+assistant: ക്ഷമിക്കണം, ആ കാര്യത്തിൽ ഞങ്ങൾക്ക് specific detail
+user: പ്ലാൻ ചെയ്യേണ്ടതെന്ന് അറിയില്ല.
+assistant:  ഇത് സാധാരണമാണ്. നിങ്ങളുടെ മകന്റെ educational background (Plus Two) കണക്കിലെടുത്ത്, CMA പോലുള്ള finance certification courses അല്ലെങ്കിൽ job-oriented First Career Program പോലുള്ള option-കൾ ഉണ്ട്. കൂടുതൽ വിവരങ്ങൾക്ക് senior counsellor നിങ്ങളെ contact ചെയ്യും. ഇനി എന്തെങ്കിലും ചോദിക്കണോ?
+user: ഈ കോഴ്സിന് എന്ത് കോഴ്സ്?
+assistant: നിങ്ങളുടെ മകന്റെ background (Plus
+user: പോസ്റ്റിംഗ് മറ്റ് കാര്യങ്ങളും വരും.
+assistant:  ക്ഷമിക്കണം, നിങ്ങളുടെ ചോദ്യം ഞാൻ മനസ്സിലായില്ല. XYA-യുടെ courses-നെ പറ്റിയുള്ള കൂടുതൽ വിവരങ്ങൾ senior counsellor free consultation-ൽ വിശദമായി നൽകും. മറ്റെന്തെങ്കിലും അറിയണോ?
+user: അല്ല ഈ കോഴ്സ് ഏകദേശം എത്ര ഡ്യൂറേഷൻ വരും എത്ര ഇയർ വരും
+assistant: CMA course typically six to twelve
+user: അതുമായിട്ട് ഉണ്ടാകുന്ന ഫീസും മറ്റു കാര്യങ്ങളും എത്രയായിരിക്കും?
+assistant:  Complete fee structure-ഉം, select courses-ന് ഉള്ള installment options ഉൾപ്പെടെയുള്ള payment details-ഉം, ഞങ്ങളുടെ senior counsellർ free consultation-ൽ വിശദമായി പറഞ്ഞു തരും. മറ്റെന്തെങ്കിലും അറിയണോ?
+user: മറ്റു മറ്റു കാര്യങ്ങളൊന്നും അറിയണ്ട.
+assistant:  ഇന്ന് സമയം തന്നതിന് thank you. Course-നെ പറ്റിയും next steps-നെ പറ്റിയും കൂടുതൽ details-ന് വേണ്ടി ഞങ്ങളുടെ senior counsellor നിങ്ങളെ contact ചെയ്യും. ഒരു നല്ല ദിവസം ആശംസിക്കുന്നു.
+",https://api.bolna.ai/recordings/call/f7850223-8378-42a0-8018-c95b7ef812b2,completed,2026-09-15,4,Yes,"The conversation involved an assistant from XYA University speaking first with a student named Iffan, who expressed interest in courses like CMA and SSC, and confirmed having completed Plus Two education. The assistant explained that courses like CMA offer blended training over six to twelve months including internship and placement support. Later, the assistant spoke with Iffan's father to discuss educational options for his son, emphasizing job-oriented certification courses suitable for a Plus Two graduate and mentioning a senior counsellor would provide detailed information. Queries about course duration and fees were addressed by stating the senior counsellor would share complete fee structures and installment plans during a free consultation. The father declined additional information, and the conversation ended with the assistant offering a follow-up from the senior counsellor for further guidance.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CMA, SSC",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,044f5e75-922d-4de4-9fd9-6512cc36b86d,,2026-09-13T04:36:47.211087+00:00,2026-09-13T07:40:53.640738+00:00,outbound,plivo,156,6,Plivo,end_call_tool,,e38dd287-ad0c-4e00-87a0-be888841e03f,10.2,Adda 24/7,ADDA SSC Final - V4 Bolna Edits voice 5(Live),ee6d2139-0221-4cb3-b65b-1d0ede4ae534,156,"assistant: Hello, क्या मेरी बात User से हो रही है?
+user: हैलो।
+assistant:  मैं शिवानी हूँ, Exam Counselor at अड्डा twenty four seven। आपके SSC के exam से related बात करनी थी। क्या मैं आपसे कुछ सवाल पूछ सकती हूँ?
+user: यस।
+assistant:  Actually हमें आपके number से query मिली थी, इसलिए मैंने आपको call किया है। User, ये registration आपने खुद की study के लिए किया था या घर पर कोई student है जो SSC exams की preparation कर रहे है ?
+user: नहीं, मैं अकेले हूँ, मैम।
+assistant:   ठीक है। तो, मैं पहले आपके बारे में थोड़ा जानना चाहूँगी। आपसे कुछ सवाल पूछ लूँ?
+user: ओके।
+assistant: क्या आप मुझे ये बता सकते हैं कि आप student हैं या working professional?
+user: हैलो। ओके।
+assistant:  क्या आप मुझे ये बता सकते हैं कि आप student हैं या working professional?
+user: स्टूडेंट, स्टूडेंट, मैम।
+assistant:  अच्छा, और घर में आपकी पढ़ाई को लेकर आपको मुख्य रूप से कौन support करता है?
+user: डैडी, मम्मी।
+assistant:  आप किस exam की preparation कर रहे हैं ?
+user: एसएससी, सीएचएसएल।
+assistant:  जी, SSC में कौन सा specific exam है, जैसे SSC CGL, SSC CHSL या फिर कोई और?
+user: सीएचएसएल।
+assistant:  Hmm, क्या ये आपका पहला attempt है या पहले भी try किया है ?
+user: नहीं, मैम, फर्स्ट टाइम है।
+assistant:  बहुत अच्छा, काफ़ी candidates सही preparation के साथ इसे अपने first attempt में ही clear कर लेते हैं। क्या आप बता सकते हैं कि आप daily अपनी preparation में कितना time dedicate कर पाते हैं?
+user: आई कैन डेडिकेट 3 आवर्स।
+assistant: और आपकी preparation का तरीका क्या
+user: आई हैव नॉट स्टार्टेड।
+assistant:  और क्या कोई है जो usually आपकी preparation या studies में आपको guide करता है?
+user: नहीं, मैम।
+assistant: तो User, अभी तक आपने बताया कि आप SSC CHSL की पहली बार तैयारी कर रहे हैं, अभी तक शुरू नहीं किया है,
+user: नो, मैम, नो।
+assistant:  ठीक है, क्योंकि आप SSC CHSL की पहली बार तैयारी कर रहे हैं और अभी तक शुरू नहीं किया है, क्या मैं आपकी बात हमारे senior counselor से करवा दूँ, जो आपको हमारी preparation का roadmap और success plan समझा सकेंगे?
+user: हम्म, हम्म। ओके, मैम।
+assistant: Alright, आपका time देने के लिए thank you। हमारे senior counselor आपसे जल्द ही connect करेंगे। Have a nice day.
+",https://api.bolna.ai/recordings/call/044f5e75-922d-4de4-9fd9-6512cc36b86d,completed,2026-09-13,4,Yes,"The conversation was between an Assistant, Shivani, an Exam Counselor at Adda Twenty Four Seven, and the User, a student preparing for the SSC CHSL exam. The Assistant inquired about the User's study status, confirming the User is preparing alone for the SSC CHSL exam for the first time but has not yet started preparation. The User dedicates about three hours daily when possible and has no guide for studies. The Assistant offered to connect the User with a senior counselor to provide a preparation roadmap and success plan, which the User accepted. The call concluded with a promise that the senior counselor would contact the User soon.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Student; first-time SSC CHSL aspirant,first time,next year,SSC CHSL,SSC CHSL,3 hours,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,9ad99741-0b25-4254-89df-2e65be2acd7b,,2026-09-13T04:36:49.355078+00:00,2026-09-13T04:37:47.111011+00:00,outbound,plivo,24,9,Plivo,end_call_tool,,4698ee14-e4f5-4a1e-b895-a184cfaaa3c2,1.7,Adda 24/7,ADDA SSC Final - V4 Bolna Edits voice 5(Live),ee6d2139-0221-4cb3-b65b-1d0ede4ae534,24,"assistant: Hello, क्या मेरी बात User से हो रही है?
+user: हैलो।
+assistant:  मैं शिवानी हूँ, Exam Counselor at अड्डा twenty four seven। आपके SSC के exam से related बात करनी थी। क्या मैं आपसे कुछ सवाल पूछ सकती हूँ?
+user: मैं वही भैया नहीं हूँ, जब आएगा तब बात करा दूँगा।
+assistant: जी, कोई बात नहीं। हम आपको कोई convenient time par फिर contact करेंगे। समय देने के लिए धन्यवाद।
+",https://api.bolna.ai/recordings/call/9ad99741-0b25-4254-89df-2e65be2acd7b,completed,2026-09-13,4,Yes,"The conversation was between an Assistant named Shivani, an Exam Counselor at Adda Twenty Four Seven, and a User. Shivani initiated the call to discuss the User's SSC exam and asked for permission to ask some questions. The User clarified that they were not the intended person and mentioned they would talk when that person is available. The Assistant acknowledged this and said they would contact the User again at a convenient time, thanking them for their time.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,this year,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,3c521458-2f98-47f6-a8c1-89c4c4221f1c,,2026-09-15T09:35:04.411148+00:00,2026-09-15T09:40:11.996399+00:00,outbound,plivo,238,18,Callee,end_call_tool,Reliance (JIO) - Bahir & Jharkhand,f1a24a67-3e13-44eb-9054-3d38e146e15e,13.6,Adda 24/7,ADDA SSC Final - V4 Bolna Edits voice 5(Live),ee6d2139-0221-4cb3-b65b-1d0ede4ae534,238,"assistant: Hello, क्या मेरी बात User से हो रही है?
+user: हेलो।
+assistant: मैं शिवानी हूँ, Exam Couns
+user: जय
+assistant: Hello, क्या आप अभी भी लाइन पर हैं?
+user: ऑनलाइन पर है।
+assistant:  Actually, हमें आपके number से query मिली थी, इसलिए मैंने आपको call किया है। User, ये registration आपने खुद की study के लिए किया था या घर पर कोई student है जो SSC exams की preparation कर रहे है ?
+user: क्या सीट के?
+assistant:  ठीक है। तो, मैं पहले आपके बारे में थोड़ा जानना चाहूँगी। आपसे कुछ सवाल पूछ लूँ?
+user: क्या सवाल पूछना है, पूछिए।
+assistant:  क्या आप मुझे ये बता सकते हैं कि आप student हैं या working professional?
+user: उसको मतलब नहीं समझ पाया।
+assistant:  मैं आपका मतलब समझ गई। मैं ये पूछना चाह रही थी कि क्या आप अभी पढ़ाई कर रहे हैं, मतलब student हैं, या फिर काम कर रहे हैं, मतलब working professional हैं?
+user: काम कर रहे हैं।
+assistant:   अच्छा, और घर में आपकी पढ़ाई को लेकर आपको मुख्य रूप से कौन support करता है?
+assistant: Hello, क्या आप अभी भी लाइन पर हैं?
+user: ऑनलाइन पर है, बोलिए ना।
+assistant:  मुझे लगता है आप अपनी तैयारी के तरीके के बारे में बता रहे हैं। मैं ये पूछना चाहती हूँ कि आपके घर में आपकी पढ़ाई को मुख्य रूप से कौन support करता है?
+user: गिर निक्कू।
+assistant:  माफ़ कीजिए, मैं आपकी बात समझ नहीं पाई। कृपया बताएं कि आपके घर में आपकी पढ़ाई को मुख्य रूप से कौन support करता है?
+user: एक आधी है।
+assistant: समझ गई। आप बता सकते
+user: ऑनलाइन है, देखिए।
+assistant:  आपने बताया कि आप working professional हैं और घर में आपकी पढ़ाई को एक आधी support करते हैं। क्या मैं आपकी बात हमारे senior counselor से करवा दूँ, जो आपको हमारी preparation का roadmap और success plan समझा सकेंगे?
+user: आपको जिससे बात— आपको जिससे बात करना है, उनका नाम क्या है?
+assistant:  मुझे आपका नाम जानना होगा ताकि मैं आपकी जानकारी सही तरीके से रिकॉर्ड कर सकूँ। क्या आप अपना नाम बता सकती हैं?
+user: क्या नाम है उनका?
+assistant: मैं आपकी बात समझना
+user: ज्ञानी श्री बाबा साहब।
+assistant:  ठीक है, ज्ञानी श्री बाबा साहब। आपने बताया कि आप working professional हैं और घर में आपकी पढ़ाई को एक आधी support करते हैं। क्या मैं आपकी बात हमारे senior counselor से करवा दूँ, जो आपको हमारी preparation का roadmap और success plan समझा सकेंगे?
+assistant: Hello, क्या आप अभी भी लाइन पर हैं?
+user: ऑनलाइन पर है, बताइए ना, नाम क्या है? जो अति किया है उनको।
+assistant:  आपका मतलब अगर coaching या guidance देने वाले गुरुजी का नाम पूछ रहे हैं तो कृपया बताएं। मैं आपकी बात समझकर आगे मदद करती हूँ। अभी तक आपने बताया कि आप working professional हैं और घर में एक आधी support करते हैं। क्या मैं आपकी बात हमारे senior counselor से करवा दूँ?
+user: हेलो।
+assistant: जी, कोई बात नहीं। अगर आपको future में अड्डा twenty four seven की ज़रूरत हो तो offers देखने के लिए websi te ज़रूर visit करिएगा। Thank you, and have a nice day ahead.
+",https://api.bolna.ai/recordings/call/3c521458-2f98-47f6-a8c1-89c4c4221f1c,completed,2026-09-15,2,Yes,"The conversation was between the Assistant, Shivani, an exam counselor, and the User. The Assistant called the User regarding a query related to SSC exam registration and inquired whether the User is a student or a working professional. The User identified as a working professional. The Assistant tried to learn more about the User's study support system at home but faced some unclear responses. The Assistant offered to connect the User with a senior counselor to explain the preparation roadmap and success plan. The User asked about the name of the person to talk to but did not provide their own name clearly. The call concluded with the Assistant advising the User to visit the website for offers if needed in the future.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,working professional,,this year,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,9485c32f-acf9-45a9-ae95-1779f53e4928,,2026-09-15T09:35:07.877035+00:00,2026-09-15T09:36:44.006128+00:00,outbound,plivo,18,8,Callee,end_call_tool,,1642ac14-0fe5-4f41-8d4c-cafe697d8433,1.7,Adda 24/7,ADDA SSC Final - V4 Bolna Edits voice 5(Live),ee6d2139-0221-4cb3-b65b-1d0ede4ae534,18,"assistant: Hello, क्या मेरी बात Balwinder Kaur से हो रही है?
+user: रुको। मेरे कानों में पहला ले आया? ये कहानी।
+assistant: मैं शिवानी
+user: है बिल्लू की, फिर बोलूँगा।
+assistant: जी, कोई बात नहीं। अगर आपको future में अड्डा twenty four seven की ज़रूरत हो तो offers देखने के लिए website ज़रूर visit करिएगा। Thank you, and have a nice day ahead.
+",https://api.bolna.ai/recordings/call/9485c32f-acf9-45a9-ae95-1779f53e4928,completed,2026-09-15,2,Yes,"The conversation took place between an assistant and a user named Balwinder Kaur. The assistant initially asked to speak with Balwinder Kaur, but the user responded with unrelated remarks. The assistant identified themselves as Shivani and, after a brief exchange, offered information about visiting the adda twenty four seven website for offers in the future before ending the conversation.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,this year,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,92ce5d5d-8380-4cfc-a5f9-2ee248c241f4,,2026-09-13T06:15:06.293862+00:00,2026-09-13T06:17:25.968697+00:00,outbound,plivo,104,18,Plivo,end_call_tool,Reliance (JIO) - Andhra Pradesh,af15eb0a-fe71-4e8b-8230-693d66469976,6.8,Dr. M.G.R. Educational And Research Institute_428,LQ(Eng+Telugu),816e78f4-1d4e-48ca-a68b-347a8cd6a7f2,104,"assistant: Hello, am I speaking with Karthik?
+user:  hello
+assistant:  Hello, I am calling from Doctor M G R Educational and Research Institute to briefly share information about our programmes and admissions for the twenty twenty six academic session. May I take two minutes of your time?
+assistant: Hey, are you still there
+user:  hello
+assistant:  Would you like to continue in English or telugu?
+user:  saladoo
+assistant: Let me connect you with  who speaks Telugu.
+user: ఓకే.
+assistant:  Hello, నేను Doctor MGR Educational and Research Institute నుండి call చేస్తున్నాను. two thousand twenty six to twenty seven admissions గురించి కొద్దిగా మాట్లాడొచ్చా? రెండు మూడు నిమిషాలు time ఉందా?
+user: ఆ.
+user: ఆ మాట్లాడండి.
+assistant:  నేను మీ programme గురించి enquiry-కి follow up చేయడానికి call చేస్తున్నాను? మీరు ఏ course లో interest చూపిస్తున్నారు?
+user: నేను ఎంబిఏ.
+assistant:  MBA programme గురించి మీ interest capture చేసాను. two thousand twenty six to twenty seven academic session-కి admission తీసుకోవాలని interest ఉందా?
+user: స్ట్రక్చర్ ఎంత అవుతుంది?
+assistant: Latest fee details కోసం నేరుగా admissions team తో మాట్లాడండి, మీ programme-కి సంబంధించిన complete fee structure share చేస్తారు. MBA programme
+user: ఆ పని.
+assistant: Doctor MGR University ఒక NAAC A plus accredited Deemed-to-be University, Maduravoyal, Chennai-లో ఉంది. MBA programme రెండు సంవత్సరాల వ్యవధి కలిగి ఉంటుంది. మీరు ఇంకా ఏమైనా
+user: ఆ ఓకే
+assistant:  ఇవాళ me time ఇచ్చినందుకు thanks. మీరు share చేసిన details తో మన admissions counsellor త్వరలో contact చేస్తారు. Have a wonderful day!
+",https://api.bolna.ai/recordings/call/92ce5d5d-8380-4cfc-a5f9-2ee248c241f4,completed,2026-09-13,4,Yes,The conversation was between an admissions assistant from Doctor M G R Educational and Research Institute and a prospective student named Karthik. The assistant introduced the institute and inquired about Karthik's interest in admission for the 2026-2027 academic session. Karthik expressed interest in the MBA program and asked about the fee structure. The assistant advised contacting the admissions team directly for detailed fee information and provided brief details about the university's accreditation and program duration. The call concluded with the assistant confirming that an admissions counselor would contact Karthik soon.,Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,User is interested in the MBA programme and asked about fee/structure for the 2026-27 session; they agreed to be contacted by admissions counsellor.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,51418615-a784-49dd-81e5-8b3b397cc301,,2026-09-14T08:54:01.867010+00:00,2026-09-14T08:55:20.359178+00:00,outbound,plivo,25,24,Plivo,inactivity_timeout,BSNL - Maharashtra & Goa,95618964-3dfd-49fb-bf1e-da29ff8b1521,1.7,International Institute of Business Studies,lead qualification english and hindi,6c512bca-9dee-4f52-8600-e241489f399d,25,"assistant: Hi, I am Riya from IIBS Bengaluru. Am I Talking to Swasthishree.
+user: direct to whatsapp
+assistant: For more details, our senior admission counselor will contact you. May I know a convenient time for them to call you?
+assistant: Hey, are you still there
+",https://api.bolna.ai/recordings/call/51418615-a784-49dd-81e5-8b3b397cc301,completed,2026-09-14,2,Yes,"The conversation was between Riya, an assistant from IIBS Bengaluru, and a user named Swasthishree. The assistant confirmed the user's identity, received a request to communicate via WhatsApp, and informed the user that a senior admission counselor would contact them. The assistant also asked for a convenient time for the call and followed up to check if the user was still available.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,1a033b83-3e72-45de-8e8d-6767eaf1546d,,2026-09-12T05:28:38.138673+00:00,2026-09-12T05:31:04.620032+00:00,outbound,plivo,106,16,Callee,Call recipient hungup,Reliance (JIO) - Bahir & Jharkhand,fda1959f-870c-449c-88f0-b959548e6cc0,6.8,JECRC University_198,JECRC - V2,cd18dda1-99bf-4494-9c1d-6f882e1b0eb1,106,"assistant: Hello, This is AI Counsellor from JECRC University. Do you have 2 minutes?
+user:  hello
+assistant:  Before I proceed, can you confirm your name?
+user:  talking हिंदी
+assistant:  आगे बढ़ने से पहले, क्या आप अपना नाम confirm कर सकते हैं?
+user:  श्वेता कुमार है
+assistant:  धन्यवाद, श्वेता जी। मैं आपको कॉल कर रही हूँ क्योंकि आपने JECRC University में रुचि दिखाई है। क्या आप Twenty Twenty Six के लिए admission लेने में interested हैं?
+user:  admission तो लेना था
+assistant:   ठीक है। आप किस course में admission लेना चाहते हैं?
+user:  hello
+assistant:   कृपया अपना पसंदीदा course बताएं जिसमें आप admission लेना चाहते हैं?
+user:  कौन सा कौन college
+assistant:  For more details our senior admission counselor will contact you. क्या मैं आपके लिए callback schedule करूँ? कृपया एक सुविधाजनक दिन और समय बताएं।
+user:  आज ही कर दीजिए
+assistant:   आज के दिन के लिए कृपया एक समय बताएं जब हम आपको कॉल कर सकें।
+user:  बारह बजे
+assistant: बारह बजे आज के दिन के लिए schedule कर दिया गया है। मैं इसे confirm करती हूँ: बारह बजे, बारह सितंबर, दो हजार छब्बीस। धन्यवाद। आपके समय के लिए धन्यवाद।
+",https://api.bolna.ai/recordings/call/1a033b83-3e72-45de-8e8d-6767eaf1546d,completed,2026-09-12,4,Yes,"The conversation was between an AI counselor from JECRC University and a prospective student named Shweta Kumar. The counselor confirmed Shweta's interest in admissions for the year 2026, to which Shweta responded affirmatively but did not specify a course. When asked about preferred courses and colleges, Shweta inquired about available colleges. The counselor offered to schedule a callback by a senior admission counselor for detailed information, and Shweta requested the callback to be arranged for the same day at 12 noon. The counselor scheduled and confirmed the callback for 12 PM on September 12, 2026.",Qualified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00 PM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Maybe,Yes,12/09/2026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,250dbc1c-05ef-49e7-b35f-2b4eb9608eda,,2026-09-12T14:37:54.375788+00:00,2026-09-12T14:40:12.849040+00:00,outbound,plivo,56,19,Callee,Call recipient hungup,Reliance (JIO) - Karnataka,b5142531-bce6-47ec-b354-c8d018b6fbfa,3.4,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,56,"assistant: Hi, I am Riya. Am I Talking to Raghav ?
+user: ಹಲೋ.
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call
+user: ಕೇಸ್ ಯಾರು? ನಮಸ್ಕಾರ.
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to
+user: ಅಂ, ಇಲ್ಲ, ಅವನು ಕಾಲೇಜಲ್ಲಿ ಇದ್ದಾನೆ.
+assistant: ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ
+user: ಕಾಲೇಜ್, ಕಾಲೇಜ್.
+assistant:  ನೀವು ಯಾವ ಸಮಯದಲ್ಲಿ call ಮಾಡಬೇಕೆಂದು ಹೇಳಬಹುದು?
+user: ಅವನು ಆನ್‌ಲೈನ್ ಕೋಚಿಂಗ್ ಸಿಗಲ್ಲ, ಅಲ್ಲಿ ಅವನಿಗೆ ಕಾಲೇಜು ವಿಥ್ ಹಾಸ್ಟೆಲ್, ಮೊಬೈಲ್ ಎಲ್ಲವೂ ಇಲ್ಲ.
+assistant: ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ time ನಲ್ಲಿ call ಮಾಡಬೇಕು ಅಂತ
+user: ಓಕೆ, ಓಕೆ.
+user: ಅಂ, ನಾಳೆ ಇದೇ ಟೈಮಲ್ಲಿ ಮಾಡಿ.
+assistant: ನಾಳೆ ರಾತ್ರಿ ಎಂಟು ಗಂಟೆಗೆ call ಮಾಡೋಕೆ set ಮಾಡಿದ್ದೇನೆ. ನಾಳೆ ರಾತ್ರಿ ಎಂಟು ಗಂಟೆ, ತೊಂಬತ್ತನೇ ಸೆಪ್ಟೆಂಬರ್ ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ಧನ್ಯವಾದಗಳು!
+",https://api.bolna.ai/recordings/call/250dbc1c-05ef-49e7-b35f-2b4eb9608eda,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya from Parikshe and a user named Raghav. Riya called to offer help for Karnataka students preparing for SSLC, PUC Science, PUC Commerce, and CA Foundation through an online learning platform. The user explained that Raghav is currently in college with hostel accommodation and no mobile access, so online coaching is not suitable. They agreed to schedule a follow-up call the next day at 8 PM on September 29th.",Qualified,,13/09/2026 08:00 PM,,,,,,,,,,,No explicit intent to enroll was stated; the user only agreed to a follow-up call.,SSLC,"User says the student cannot access online coaching ('ಅವನು ಆನ್‌ಲೈನ್ ಕೋಚಿಂಗ್ ಸಿಗಲ್ಲ') and mentions lack of mobile/hostel, indicating they are not currently receiving online coaching.",No explicit awareness of Parikshe was stated by the caller.,"No explicit interest in a structured course (live classes, materials, tests, doubt support) was expressed on the call.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,54326f54-915e-473e-b3a8-43f7778d2409,,2026-09-12T14:37:58.368195+00:00,2026-09-12T14:40:45.200059+00:00,outbound,plivo,96,8,Plivo,end_call_tool,Reliance (JIO) - Karnataka,7cf4cf63-914a-471b-9129-abdfb4079cce,6.8,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,96,"assistant: Hi, I am Riya. Am I Talking to Renuka,basavvanneppa, Bhajantri ?
+user: ಎಸ್, ಮ್ಯಾಮ್. ಹಲೋ.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಹೇಳಿ, ಮ್ಯಾಮ್.
+assistant: ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA
+user: ಯಾವುದು ಇಲ್ಲ, ಮ್ಯಾಮ್.
+assistant:  ನಮ್ಮ senior counsellor ನಿಮಗೆ ಅದರ ಬಗ್ಗೆ call ಮಾಡಿ ವಿವರಿಸುತ್ತಾರೆ.
+user: ಓಕೆ, ಮ್ಯಾಮ್.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/54326f54-915e-473e-b3a8-43f7778d2409,completed,2026-09-12,2,Yes,"The conversation was between assistant Riya from Parikshe and the user Renuka, Basavvanneppa, Bhajantri. Riya called to introduce an online learning platform for Karnataka students preparing for SSLC, PUC Science, PUC Commerce, and CA Foundation exams, asking if the user was preparing for any of these exams. The user replied that they were not preparing for any exam currently. The assistant informed that a senior counsellor would call for further explanation, and the call ended with polite closing remarks.",Qualified,,,,,,,,,,,,,No enrollment interest expressed.,SSLC,Not mentioned on the call.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,db11a3ef-4786-4e0d-92a5-d28b943cb597,,2026-09-12T14:37:59.047702+00:00,2026-09-12T14:40:11.929438+00:00,outbound,plivo,45,20,Callee,Call recipient hungup,IDEA - Karnataka,b7f06a2c-4799-455b-81d6-32eb8e0eee81,3.4,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,45,"assistant: Hi, I am Riya. Am I Talking to Chirag ?
+user: ಹಲೋ.
+user: ಇರೋದು ಇಲ್ಲ, ಮನೆಯಲ್ಲಿ. ಯಾರು ಮಾತಾಡೋದು? ಹಲೋ, ಹಲೋ.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಹಲೋ
+user: ಇಲ್ಲ, ಇಲ್ಲ, ನಮ್ಮ ಮಗಳು ಬಂದ ಮೇಲೆ ಮಾತಾಡಿ, ಆಯ್ತಾ?
+user: ಒಂದು 9:30 ಆಗುವಾಗ ಫೋನ್ ಮಾಡಿ. ಆಗ ಬರ್ತಾರೆ ಅವಳು. ಬಾಯ್, ಬಾಯ್.
+assistant: ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call
+",https://api.bolna.ai/recordings/call/db11a3ef-4786-4e0d-92a5-d28b943cb597,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya and a user. Riya introduced herself as calling on behalf of Parikshe, an online learning platform assisting Karnataka students with SSLC, PUC Science, PUC Commerce, and CA Foundation preparation, and requested two to three minutes for the call. The user indicated that the intended person was not available and requested a call back around 9:30 when their daughter would be present. The assistant agreed to call at a more convenient time.",Qualified,,9:30 (time given by caller; no AM/PM or date specified),,,,,,,,,,,No explicit statement of enrollment interest; caller only requested a callback at 9:30.,SSLC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,871ae46f-bfb4-4f74-bcc6-e2f2ce0d871d,,2026-09-12T14:37:59.714903+00:00,2026-09-12T14:41:03.603219+00:00,outbound,plivo,66,15,Callee,Call recipient hungup,Vodafone - Mumbai,14697cbc-4088-4de0-8958-9903410eda81,5.1,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,66,"assistant: Hi, I am Riya. Am I Talking to G Madan ?
+user: ಹಲೋ.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಇಲ್ಲ ಮೇಡಂ, ಅವರು ಸ್ಟೂಡೆಂಟ್ ಇಲ್ಲ, ಅವರು.
+assistant: ನೀವು ಪೋಷಕರಾಗಿದ್ದೀರಾ ಅಂದ್ರೆ, ನಿಮ್ಮ ಮಗುವಿನ current academic stage ಬಗ್ಗೆ ತಿಳಿಸಬಹುದಾ? ಅವರು ಯಾವ exam ಗೆ prepare
+user: ಬೆಳಗ್ಗೆ, ಬೆಳಗ್ಗೆ ಮಾತಾಡಿ ಮೇಡಂ.
+user: ಡಿಸ್ಟರ್ಬೆನ್ಸ್ ಇದೆ, ಬೆಳಗ್ಗೆ ಮಾತಾಡಿ.
+",https://api.bolna.ai/recordings/call/871ae46f-bfb4-4f74-bcc6-e2f2ce0d871d,completed,2026-09-12,2,Yes,"The conversation was between an assistant named Riya and a user. Riya introduced herself as calling from Parikshe about an online learning platform for Karnataka students preparing for SSLC, PUC Science, PUC Commerce, and CA Foundation exams and asked for a few minutes of the user's time. The user responded that the person in question is not a student and requested to be contacted in the morning due to disturbance at the time of the call.",Qualified,,,,,,,,,,,,,,SSLC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,cf8f9499-8a4c-4ced-96e1-7a7c162b6899,,2026-09-12T14:37:59.861625+00:00,2026-09-12T14:43:57.905907+00:00,outbound,plivo,296,28,Plivo,end_call_tool,BSNL - Maharashtra & Goa,e298e81d-8661-43b4-82ff-648604a1d4fa,17,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,296,"assistant: Hi, I am Riya. Am I Talking to Bhoomika ?
+user: ಹಲೋ.
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three
+user: ಕಟ್ ಕಟ್ ಆಗ್ತಾ—
+assistant:  Hello, ನೀವು ಇದ್ದೀರಾ?
+user: ಯಾರು ಬೇಕು ನಿಮಗೆ?
+assistant:  ನಾನು Parikshe ಕಡೆಯಿಂದ Riya, students ಗೆ SSLC, PUC Science, PUC Commerce, ಮತ್ತು CA Foundation preparation ಗೆ online courses ಬಗ್ಗೆ ಮಾಹಿತಿ ಕೊಡ್ತಾ ಇದ್ದೇನೆ. ನೀವು ಈಗ available ಇದ್ದೀರಾ? ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಆಗಬಹುದು.
+assistant:  ನಿಮ್ಮ current exam preparation ಯಾವುದು? SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಪಿಯುಸಿ.
+assistant: PU C Science preparation ಮಾಡ್ತಿದ್ದೀರಾ? KCET ಅಥವಾ NEET ಗೆ prepare ಆಗ್ತಿದ್ದೀರಾ? ಅಥವಾ general PUC
+user: ಎಸ್, ಎಸ್.
+assistant:  ನೀವು ಈಗ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು ಕೊಡ್ತಾ ಇರೋ support ನಿಂದ ನೀವು satisfied ಆಗಿದ್ದೀರಾ?
+user: ಇಲ್ಲ.
+assistant:  ನೀವು Parikshe ಬಗ್ಗೆ ಗೊತ್ತಾ? ನಮ್ಮ YouTube classes ನೋಡಿದ್ದೀರಾ ಅಥವಾ Parikshe App use ಮಾಡಿದ್ದೀರಾ?
+user: ಪರೀಕ್ಷೆ ಆಪ್ ಯೂಸ್ ಮಾಡ್ಲಿಲ್ಲ.
+assistant: ನೀವು live classes,
+user: ಯೂಟ್ಯೂಬ್ ಅಲ್ಲಿ ನೋಡ್ತೇನೆ. ಹಲೋ.
+assistant:  ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured course ತಗೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ?
+user: ಎಸ್.
+assistant: ನೀವು ಈಗ Parikshe course ನಲ್ಲಿ enroll ಮಾಡ್ಕೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ, ಅಥವಾ ನಮ್ಮ
+user: ನಮಗೆ ಅದು ಸ್ಟಡಿ ಮೆಟೀರಿಯಲ್ ಸಿಗ್ತದಾ?
+assistant:  Parikshe courses ನಲ್ಲಿ study materials, chapter-wise notes ಮತ್ತು PYQs with solutions ಎಲ್ಲವೂ provide ಆಗ್ತವೆ. ನೀವು course enroll ಆದ ಮೇಲೆ, ಅವು Parikshe App ನಲ್ಲಿ access ಮಾಡಬಹುದು. ಇದರ ಬಗ್ಗೆ ಇನ್ನೂ ತಿಳ್ಕೊಳ್ಳಬೇಕಾ?
+user: ಅದು... ನಮಗೆ ಏನು?
+assistant: ನೀವು ಯಾವ exam category prepare ಮಾಡ್ತಿದ್ದೀರಾ ಅಂತ ಹೇಳಿದ್ದೀರಾ, ಅದು PUC Science. ನಾವು 1st PUC Science students ಗೆ AARAMBHA batch offer ಮಾಡ್ತೀವಿ. ಇದರಲ್ಲಿ daily live classes, notes, test series, ಮತ್ತು doubt-solving support ಇರುತ್ತದೆ.
+user: ನಾನು ಸೆಕೆಂಡ್ ಪಿಯು.
+user: ನಾನು ಸೆಕೆಂಡ್ ಸೈನ್ಸ್.
+assistant:  2nd PUC Science students ಗೆ VIJETA 360 batch ಇದೆ. ಇದರಲ್ಲಿ KCET Integrated, KCET Integrated Pro, ಮತ್ತು KCET NEET Plus ಎಂಬ ಮೂರು options ಇವೆ. Physics, Chemistry, Mathematics, Biology, Computer Science, English ಮತ್ತು Kannada subjects cover ಆಗ್ತವೆ. ಇದರಲ್ಲಿ live classes, notes, doubt support, ಮತ್ತು regular tests ಸಿಗುತ್ತವೆ. ಇದರ ಬಗ್ಗೆ ಇನ್ನೂ ತಿಳ್ಕೊಳ್ಳಬೇಕಾ?
+user: ಗ್ರಾಮರ್ ಹೇಳ್ತಾರಾ? ಗ್ರಾಮರ್.
+assistant:  ನಾನು ಇಲ್ಲಿ Parikshe courses ಬಗ್ಗೆ ಮಾತ್ರ help ಮಾಡಬಲ್ಲೆ. ಗ್ರಾಮರ್ ಬಗ್ಗೆ detailed information ಬೇಕಾದ್ರೆ, ನಮ್ಮ senior counsellor ನಿಮಗೆ call ಮಾಡಿ ವಿವರಿಸುತ್ತಾರೆ.
+user: ಎಸ್. ಗ್ರಾಮರ್ ಹೇಳಿ ಕೊಡ್ತಾರಾ?
+assistant:  ನನಗೆ ಈ ಮಾಹಿತಿ ಈಗ ಗೊತ್ತಿಲ್ಲ — ನಮ್ಮ senior counsellor ನಿಮಗೆ ಅದರ ಬಗ್ಗೆ ಮಾಹಿತಿ ಕೊಡ್ತಾರೆ.
+user: ಓಕೆ.
+assistant:  ನೀವು ಈಗ Parikshe course ನಲ್ಲಿ enroll ಮಾಡ್ಕೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ, ಅಥವಾ ನಮ್ಮ counsellor ನಿಮಗೆ call ಮಾಡಬೇಕಾ?
+user: ಅದೇನು, ನೀವು ಒಂದು ಗ್ರೂಪ್ ಮಾಡಿದ್ದೀರಲ್ಲ.
+user: ಅದರಲ್ಲಿ ನಮಗೆ ಅಂದ್ರೆ—
+assistant: ನಮ್ಮ
+user: ಸ್ಟಡಿ ಮೆಟೀರಿಯಲ್ಸ್ ಎಲ್ಲ ಹಾಕ್ತೀರಾ?
+assistant: Parikshe App ನಲ್ಲಿ ನಿಮ್ಮ enrolled batch ಗೆ study materials, chapter-wise notes, ಮತ್ತು PYQs with solutions
+user: ಅದು ಹೇಗೆ ನಮಗೆ ಸಿಗ್ತದೆ?
+assistant:  Parikshe App download ಮಾಡಿ, ನಿಮ್ಮ mobile number ಮೂಲಕ sign in ಆಗಿ, ನಿಮ್ಮ enrolled batch ಒಳಗೆ study materials section ನಲ್ಲಿ access ಮಾಡಬಹುದು. ಇನ್ನೇನು ತಿಳ್ಕೊಳ್ಳಬೇಕಾ?
+user: ಇಲ್ಲ, ಇಲ್ಲ.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/cf8f9499-8a4c-4ced-96e1-7a7c162b6899,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya from Parikshe and a User named Bhoomika. Riya introduced Parikshe's online learning platform offering courses for SSLC, PUC Science, PUC Commerce, and CA Foundation exam preparation. Bhoomika confirmed she is preparing for 2nd PUC Science. Riya explained the VIJETA 360 batch options for 2nd PUC Science students, which include live classes, study materials, chapter-wise notes, previous years' questions with solutions, regular tests, and doubt-solving support via the Parikshe App. Bhoomika inquired about grammar support and study materials access. Riya clarified that detailed grammar support information would be provided by a senior counsellor and explained how study materials can be accessed through the Parikshe App after enrollment using a mobile number. Bhoomika declined further information, and the call ended with Riya wishing her well in preparation.",Qualified,,,,,,,,,,,,,User expressed interest in the Parikshe course and asked specifically about study materials and how to access them; did not explicitly confirm immediate enrollment.,PUC Science,User said they are not attending any tuition or coaching ('ಇಲ್ಲ').,Aware,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,85ce0704-00f7-4c99-b162-3cf20d7497ed,,2026-09-12T14:38:03.415456+00:00,2026-09-12T14:41:10.281789+00:00,outbound,plivo,68,19,Callee,Call recipient hungup,Bharti Airtel - Bihar Jharkhand,159ab2b4-2e03-485c-a0fe-56b19ba5352d,5.1,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,68,"assistant: Hi, I am Riya. Am I Talking to Hariom ?
+user: ಎಸ್, ಮ್ಯಾಮ್.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಎಸ್, ಮ್ಯಾಮ್. ಹಲೋ. ಹಲೋ.
+assistant: ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA
+user: ಲೈಟರ್, ಲೈಟರ್.
+assistant:  Hello, ನೀವು ಇದ್ದೀರಾ?
+",https://api.bolna.ai/recordings/call/85ce0704-00f7-4c99-b162-3cf20d7497ed,completed,2026-09-12,2,Yes,"The conversation was between an assistant named Riya, representing Parikshe's online learning platform, and a user named Hariom. Riya introduced herself and the purpose of the call, which was to offer exam preparation help for Karnataka students in SSLC, PUC Science, PUC Commerce, and CA Foundation. Hariom responded briefly and expressed interest in continuing the conversation later, but did not specify which exam he was preparing for.",Qualified,,,,,,,,,,,,,No explicit interest in enrolling was expressed; the user asked to postpone the conversation.,SSLC,User did not mention attending any tuition or coaching during the call.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,472b9697-41c4-4bca-bf69-e010e5b06ab6,,2026-09-12T14:38:05.286995+00:00,2026-09-12T15:12:03.364401+00:00,outbound,plivo,133,6,Plivo,end_call_tool,Reliance (JIO) - Karnataka,48020445-1b7e-48f9-852a-6739ade8f328,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,133,"assistant: Hi, I am Riya. Am I Talking to Hithaswi ?
+user: ಹಲೋ.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಹಾ, ಹೇಳಿ.
+assistant:  ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಪಿಯುಸಿ ಸೈನ್ಸ್, ಸಿಇಟಿ.
+assistant:  ನೀವು ಈಗ ಯಾವುದಾದರೂ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು ಕೊಡ್ತಾ ಇರೋ support ನಿಂದ ನೀವು satisfied ಆಗಿದ್ದೀರಾ?
+user: ಇಲ್ಲ.
+assistant:  ನೀವು Parikshe ಬಗ್ಗೆ ಗೊತ್ತಾ? ನಮ್ಮ YouTube classes ನೋಡಿದ್ದೀರಾ ಅಥವಾ Parikshe App use ಮಾಡಿದ್ದೀರಾ?
+user: ಇಲ್ಲ.
+assistant: ನೀವು live classes,
+user: ಡೌನ್ಲೋಡ್ ಮಾಡಿಲ್ಲ. ಹೌದಾ?
+assistant:  ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured course ತಗೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ?
+user: ಎಸ್, ಮ್ಯಾಮ್.
+assistant:  ನೀವು ಈಗ Parikshe course ನಲ್ಲಿ enroll ಮಾಡ್ಕೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ, ಅಥವಾ ನಮ್ಮ counsellor ನಿಮಗೆ call ಮಾಡಬೇಕಾ?
+user: ನಿಮಗೆ ಕೆಮಿಸ್ಟ್ರಿ ಒಂದು ಅರ್ಥ ಆಗಲ್ಲ, ಅದು ಸ್ವಲ್ಪ ಕೋಚಿಂಗ್ ಬೇಕಿತ್ತು.
+assistant:  ನಮ್ಮ senior counsellರ್ ನಿಮಗೆ ಅದರ ಬಗ್ಗೆ call ಮಾಡಿ ವಿವರಿಸುತ್ತಾರೆ.
+user: ಓಕೆ, ಮ್ಯಾಮ್.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/472b9697-41c4-4bca-bf69-e010e5b06ab6,completed,2026-09-12,4,Yes,"The conversation was between a Parikshe assistant and a student named Hithaswi. The assistant introduced Parikshe's online learning platform for SSLC, PUC Science, PUC Commerce, and CA Foundation preparation and asked about Hithaswi's current exam preparation, who confirmed she is preparing for PUC Science and KCET. Hithaswi reported not currently attending any tuition or coaching and was not aware of Parikshe's offerings. She expressed interest in structured courses with live classes, study materials, tests, and doubt-solving support. When asked about enrollment, Hithaswi mentioned needing some coaching in Chemistry. The assistant arranged for a senior counselor to call Hithaswi to provide more details about Chemistry coaching.",Qualified,,,,,,,,,,,,,"User expressed interest in the structured course (live classes, materials, tests, doubt support) and noted they specifically need coaching in chemistry; accepted a counsellor follow-up.",PUC Science,User stated they are not attending any tuition/coaching ('ಇಲ್ಲ').,User is not aware of Parikshe and has not used the Parikshe app or watched its YouTube classes ('ಇಲ್ಲ').,"User said 'Yes' when asked if they were interested in a structured course with live classes, study materials, regular tests, and doubt-solving support.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,b2750c94-ea4b-436f-9522-010b78fff65b,,2026-09-12T14:38:05.726619+00:00,2026-09-12T15:11:03.428730+00:00,outbound,plivo,52,20,Callee,Call recipient hungup,IDEA - Karnataka,2a47a875-9721-4da3-a00b-bfe34e70c6f0,3.4,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,52,"assistant: Hi, I am Riya. Am I Talking to Bindu Nag ?
+user: ಅಂ... ಇಲ್ಲ, ಹೊರಗಡೆ ಹೋಗಿದ್ದಾನೆ.
+assistant:  ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ time ನಲ್ಲಿ call ಮಾಡಬೇಕು ಅಂತ ಹೇಳ್ತೀರಾ?
+user: ಅಂ... ಏನಕ್ಕೆ ಫೋನ್ ಮಾಡಿರೋದು ನೀವು?
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಓಕೆ.
+assistant: ನೀವು ಈಗ ಯಾವ exam ಗೆ
+user: ಅವನು 1 ಹವರ್ ಆದ್ಮೇಲೆ— ಓಕೆ.
+",https://api.bolna.ai/recordings/call/b2750c94-ea4b-436f-9522-010b78fff65b,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya and a user who was not the intended recipient, Bindu Nag. Riya intended to schedule a convenient time to call back. The assistant explained that the call was from Parikshe, an online learning platform offering preparation help for Karnataka students in SSLC, PUC Science, PUC Commerce, and CA Foundation exams. The user agreed to a brief interaction. The assistant inquired about the exam the user was preparing for, and the user mentioned that the intended person would be available after one hour.",Qualified,,12/09/2026 09:39 PM,,,,,,,,,,,,SSLC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,12dad448-bfa5-4d0d-988b-3e67d6b14a91,,2026-09-12T14:38:07.868691+00:00,2026-09-13T04:34:37.544663+00:00,outbound,plivo,94,14,Plivo,end_call_tool,Bharti Airtel - Karnataka,0447547c-f92a-4e6c-8af0-f0ef009edc97,6.8,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,94,"assistant: Hi, I am Riya. Am I Talking to Jagath ?
+user: Tell me.
+assistant: Hello! I am calling from Parikshe,
+user: ಹಲೋ, ಜಗತ್ ಮಿತ್ರ ಅವರು ಮಾತ್ರ ಮಾತಾಡ್ತಾ ಇದ್ದೀನಿ.
+assistant:  ನಮಸ್ಕಾರ ಜಗತ್ ಮಿತ್ರ ಸರ್! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಈ ನಂಬರ್‌ಗೆನಾ? ನನಗೂ ಗೊತ್ತಾಗೋದಿಲ್ಲ, ಅವರು ಕಾಲೇಜಿಗೆ ಹೋಗಿದ್ದಾನೆ.
+assistant: ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ time
+user: ಸಾಯಂಕಾಲ ಮಾಡ್ತೀರಾ?
+assistant: ಸಾಯಂಕಾಲ ಯಾವ
+user: 6 ಗೆ.
+assistant:  6 ಗಂಟೆಗೆ, ಯಾವ ದಿನ call ಮಾಡಬೇಕಾಗಿದೆ?
+user: ಇವತ್ತೇ ಮಾಡಿ.
+assistant: ಕ್ಷಮಿಸಿ, ಈಗಾಗಲೇ 6 ಗಂಟೆಗೆ ಕರೆ ಮಾಡಲು ಸಮಯ ಸಿಗುವುದಿಲ್ಲ. 6 ಗಂಟೆಗೆ ನಾಳೆ ಅಥವಾ ಇನ್ನು
+user: ನಾಳೆ ಮಾಡಿ.
+assistant:  ನಾಳೆ 6 ಗಂಟೆಗೆ call ಮಾಡೋಕೆ confirm ಮಾಡ್ತೀನಿ. 6 pm, the fourteenth of September ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನಿಮಗೆ ಇದು ಸರಿ ಇದೆಯಾ?
+user: ಹಾ, ಇದೆ.
+assistant:  ಧನ್ಯವಾದಗಳು. ನಾಳೆ ಸಾಯಂಕಾಲ 6 ಗಂಟೆಗೆ call ಮಾಡಲಾಗುವುದು. ಇನ್ನೇನಾದರೂ ಸಹಾಯ ಬೇಕಾದರೆ ಹೇಳಿ.
+user: ಇಲ್ಲ, ಥ್ಯಾಂಕ್ ಯು.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/12dad448-bfa5-4d0d-988b-3e67d6b14a91,completed,2026-09-12,4,Yes,"The conversation was between Riya from Parikshe and a person who identified themselves as Jagath Mitra's contact. Riya introduced Parikshe's online learning platform offerings for SSLC, PUC Science, PUC Commerce, and CA Foundation preparation and requested a convenient time for a call. The user requested a call at 6 PM, and after confirming availability, they agreed to schedule the call for 6 PM the next day, September 14. The call was concluded with confirmations and polite closing remarks.",Qualified,,14/09/2026 06:00 PM,,,,,,,,,,,No explicit enrollment interest was stated; the caller only arranged a callback for Jagath.,SSLC,No information given about whether Jagath is attending any tuition or coaching; caller only said Jagath is at college and asked for a callback time.,Not stated whether the caller or Jagath is aware of Parikshe prior to this call.,"No information provided about interest in a structured course with live classes, materials, tests, or doubt support.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,170783a1-aacd-4fe1-a692-515700201cd7,,2026-09-12T14:38:07.875293+00:00,2026-09-12T14:41:48.986636+00:00,outbound,plivo,131,10,Plivo,end_call_tool,Bharti Airtel - Karnataka,bc228471-ec20-44ae-83cd-37a009c7318e,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,131,"assistant: Hi, I am Riya. Am I Talking to D M Reddy ?
+user: ಹಲೋ?
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes
+user: ನಿಮ್ಮ ವಾಯ್ಸ್ ಕೇಳಿಸಬೇಕು, ಮೇಡಂ.
+assistant:  ನಿಮ್ಮ convenience ಗೆ ನಾನು ಇಲ್ಲಿ assist ಮಾಡ್ತಿದ್ದೇನೆ. ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಪಿ ಯು ಫೌಂಡೇಶನ್ 8th ಕ್ಲಾಸ್.
+assistant:  ನೀವು PUC Foundation ಅಥವಾ 8th class preparation ಬಗ್ಗೆ ಹೇಳುತ್ತಿದ್ದೀರಾ? Parikshe ನಲ್ಲಿ 8th class specific course ಇಲ್ಲ, ಆದರೆ ನಾವು SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation courses offer ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ level ಗೆ prepare ಆಗ್ತಿದ್ದೀರಾ ದಯವಿಟ್ಟು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು?
+user: ಮೇಡಂ, ನಾನು ಹಳಿ ಫೋನ್ ಹತ್ತಿಲ್ಲರಿ, ಈಗ ಟ್ರಿಪ್ ಆಗಿತ್ತು.
+assistant:  ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ time ನಲ್ಲಿ call ಮಾಡಬೇಕು ಅಂತ ಹೇಳ್ತೀರಾ?
+user: ಆ... ಮಂಗಳವಾರ ದಿವಸ ಸಾಯಂಕಾಲ ಹಚ್ಚಿರಿ.
+assistant: ಮಂಗಳವಾರ
+user: 7 ಗಂಟೆಗೆ.
+assistant:  ನೀವು ಮಂಗಳವಾರ ಸಂಜೆ ಏಳು ಗಂಟೆಗೆ call ಬೇಕು ಅಂತ ಹೇಳಿದ್ದೀರಾ, ಸರಿಯೇ? ನಾನು ನಿಮ್ಮ request note ಮಾಡಿಕೊಂಡಿದ್ದೇನೆ. ಮಂಗಳವಾರ, the nineteenth of September, at seven pm, ನಾವು ನಿಮಗೆ call ಮಾಡ್ತೀವಿ. ಧನ್ಯವಾದಗಳು!
+user: ಓಕೆ.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/170783a1-aacd-4fe1-a692-515700201cd7,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya and a user named D M Reddy discussing Parikshe's online learning platform for Karnataka students. Riya inquired about the user's current exam preparation level, mentioning courses like SSLC Board Exams, PUC Science, PUC Commerce, and CA Foundation. The user clarified they referred to PUC Foundation and 8th class but noted the 8th class course was unavailable. The user mentioned they had missed the call due to being on a trip. They scheduled a callback for Tuesday, September 19th, at 7 PM as per the user's convenience.",Qualified,,15/09/2026 07:00 PM,,,,,,,,,,,No explicit enrollment intent stated; user requested a callback for later discussion.,SSLC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,be8614b3-4415-42c3-bd82-80fdc58da332,,2026-09-12T14:38:15.194662+00:00,2026-09-12T14:41:51.456185+00:00,outbound,plivo,121,15,Callee,Call recipient hungup,Reliance (JIO) - Karnataka,d727d8ef-8e26-4ab8-abaf-bbf47db9d5f8,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,121,"user: ಹಲೋ.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಓಕೆ.
+assistant:  ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಎಸ್ಎಸ್ಎಲ್ಸಿ.
+assistant:  ನೀವು ಈಗ ಯಾವುದಾದರೂ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು ಕೊಡ್ತಾ ಇರೋ support ನಿಂದ ನೀವು satisfied ಆಗಿದ್ದೀರಾ?
+user: ಇಲ್ಲ.
+assistant:  ನೀವು Parikshe ಬಗ್ಗೆ ಗೊತ್ತಾ? ನಮ್ಮ YouTube classes ನೋಡಿದ್ದೀರಾ ಅಥವಾ Parikshe App use ಮಾಡಿದ್ದೀರಾ?
+user: ಇಲ್ಲ.
+assistant:  ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured course ತಗೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ?
+user: ಓಕೆ, ಒಂದು 5 ನಿಮಿಷ ತಡಿ.
+assistant:  ನೀವು ಸರಿ, ನಾನು ಇಲ್ಲಿ ಕಾಯುತ್ತಿದ್ದೇನೆ. ನೀವು ಸಿದ್ಧರಾದಾಗ ಹೇಳಿ.
+user: ಓಕೆ.
+assistant: ನೀವು ಈಗ Parikshe course ನಲ್ಲಿ enroll ಮಾಡ್ಕೊಳ್ಳಲು
+",https://api.bolna.ai/recordings/call/be8614b3-4415-42c3-bd82-80fdc58da332,completed,2026-09-12,4,Yes,"The conversation was between a Parikshe representative and a user discussing exam preparation. The Parikshe assistant introduced online preparation courses for Karnataka students targeting SSLC, PUC Science, PUC Commerce, and CA Foundation exams. The user confirmed they are preparing for the SSLC Board Exams but indicated they are not currently taking any tuition or coaching classes and are not familiar with Parikshe or its offerings. When asked about interest in a structured course with live classes, study materials, and doubt-solving support, the user agreed but requested a five-minute delay before proceeding with enrollment discussions.",Qualified,,,,,,,,,,,,,User did not explicitly state they want to enroll now; conversation was continued and agent began enrollment pitch but user gave no enrollment confirmation.,SSLC,"User stated they are not attending any tuition, coaching, or other classes ('ಇಲ್ಲ').",User stated they are not aware of Parikshe and have not used its YouTube classes or app ('ಇಲ್ಲ').,"User responded 'ಒಕೆ' to the question about interest in the structured course and then asked for a 5-minute delay, indicating tentative interest.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,cbe186fb-a7fd-4b7a-afac-30fddf006044,,2026-09-12T14:38:16.015404+00:00,2026-09-12T14:41:08.555947+00:00,outbound,plivo,44,20,Callee,Call recipient hungup,Bharti Airtel - Karnataka,921af966-93fe-43e1-8a60-2f635f0e239d,3.4,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,44,"assistant: Hi, I am Riya. Am I Talking to Megha ?
+user: ಸ್ವಲ್ಪ ಆದರೂ ರಿಫಂಡ್ ಸಿಕ್ಕರೆ ಪಾಡಾಗುತ್ತದೆ ಅಂತ ನಾನು ತಿಳಿಸಿದೆ.
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes
+user: ಮೇಡಂ, ನಾನು ಸ್ವಲ್ಪ ಬಿಜಿ ಇದ್ದೀನಿ, ಆಮೇಲೆ ಮಾತಾಡ್ತೀನಿ ಮೇಡಂ.
+assistant: ಅರ್ಥವಾಯ್ತು —
+user: ಸ್ವಲ್ಪ ಆಫೀಸಲ್ಲಿ ವರ್ಕ್ ಅಲ್ಲಿ ಇದ್ದೀನಿ ಮೇಡಂ.
+",https://api.bolna.ai/recordings/call/cbe186fb-a7fd-4b7a-afac-30fddf006044,completed,2026-09-12,3,Yes,"The conversation involved an assistant named Riya from Parikshe, an online learning platform offering preparation for SSLC, PUC Science, PUC Commerce, and CA Foundation exams in Karnataka, attempting to engage Megha. Megha responded briefly, indicating being busy with office work and requested to talk later. There was also a mention by the user about a concern regarding receiving a partial refund, but no further discussion on this was conducted during the call.",Qualified,,,,,,,,,,,,,,SSLC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,7a5bdc4d-4a23-4076-8eac-6ad72ded7301,,2026-09-12T14:38:17.573046+00:00,2026-09-12T14:42:01.308627+00:00,outbound,plivo,123,21,Plivo,end_call_tool,Bharti Airtel - Karnataka,b3db516c-8f35-4828-a8c0-c17ce45cd2d7,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,123,"assistant: Hi, I am Riya. Am I Talking to Charan ?
+user: ಚರಣ್, ಯಾರು? ಹಲೋ? ಹಲೋ, ಯಾವತ್ತು? ಹಲೋ? ಹಲೋ? ಯಾವತ್ತು? ಇಂದು. ಇಂದಿಗೆ? ಹಲೋ?
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಅವನು ಎಲ್ಲಿ ನಡೀತಾ ಇದ್ದಾನೆ?
+assistant:  ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಅವನು ಇಲ್ಲ, ಇಲ್ಲ, ಮನೆಯಲ್ಲಿ ಇಲ್ಲ.
+assistant:  ಅರ್ಥವಾಯ್ತು — ನಾವು ನಿಮಗೆ convenient ಆದ time ನಲ್ಲಿ call ಮಾಡ್ತೀವಿ. ನೀವು ಯಾವ time ನಲ್ಲಿ call ಮಾಡಬೇಕು ಅಂತ ಹೇಳ್ತೀರಾ?
+user: ಸೋಮವಾರದಲ್ಲಿ ಇಲ್ಲ ಅವನು. ಸೋಮವಾರ ಸಂಜೆ ಬರ್ತಾನೆ ಅವನು.
+assistant:  ಸೋಮವಾರ ಸಂಜೆ call ಮಾಡೋಕೆ ಆಗುತ್ತದೆಯೇ? ದಯವಿಟ್ಟು ಸಮಯ specify ಮಾಡಬಹುದು, ಉದಾಹರಣೆಗೆ, ""6 ಗಂಟೆ ಸಂಜೆ"" ಅಂತ?
+user: ಆಯ್ತು, ಆಯ್ತು, 6 ಗಂಟೆಗೆ.
+assistant:  ನೀವು ಹೇಳಿದಂತೆ, 6 ಗಂಟೆ ಸಂಜೆ, ಸೋಮವಾರ call ಮಾಡೋಕೆ confirm ಮಾಡಿದ್ದೇನೆ. ನಾವು ಆ ಸಮಯಕ್ಕೆ call ಮಾಡ್ತೀವಿ. ಧನ್ಯವಾದಗಳು!
+user: ಆಯ್ತು.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/7a5bdc4d-4a23-4076-8eac-6ad72ded7301,completed,2026-09-12,4,Yes,"The conversation was between an assistant from Parikshe, an online learning platform, and a user named Charan. The assistant called to offer help for exam preparations including SSLC, PUC Science, PUC Commerce, and CA Foundation. The user indicated that the person they were trying to reach was not at home but would return on Monday evening. They agreed to schedule a follow-up call on Monday at 6 PM.",Qualified,,14/09/2026 06:00 PM,,,,,,,,,,,The user did not express explicit interest in enrolling now; they only agreed to a scheduled callback for further discussion.,SSLC,"The user did not mention attending any tuition, coaching, or other classes during the call.",The user did not indicate awareness or familiarity with Parikshe during the call.,"The user did not state any interest (or lack of interest) in a structured course with live classes, materials, tests, or doubt support.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,5f995cfb-cd8b-442d-8367-e62f118b8881,,2026-09-12T14:38:17.601873+00:00,2026-09-12T14:42:09.367616+00:00,outbound,plivo,123,17,Callee,end_call_tool,BSNL - West Bengal,2e678a97-1df5-4b49-b2e2-8c1d1d251f62,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,123,"assistant: Hi, I am Riya. Am I Talking to Amogh ?
+user: ಹ
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಹಾ, ಎಸ್.
+assistant:  ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ನಾನು ಕೋಚಿಂಗ್ ಮಾಡುತ್ತೇನೆ, ಕೋಚಿಂಗ್.
+assistant:  ನೀವು ಈಗ ಯಾವುದಾದರೂ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು ಕೊಡ್ತಾ ಇರೋ support ನಿಂದ ನೀವು satisfied ಆಗಿದ್ದೀರಾ?
+user: ಹಾ, ಏನ್, ಏನ್? ಹಲೋ?
+assistant: ನೀವು ಈಗ ಯಾವುದಾದರೂ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು
+user: ಹಾ, ಎಸ್, ಎಸ್. ತಗೊಳ್ಳೋಣ.
+assistant:  ನೀವು Parikshe ಬಗ್ಗೆ ಗೊತ್ತಾ? ನಮ್ಮ YouTube classes ನೋಡಿದ್ದೀರಾ ಅಥವಾ Parikshe App use ಮಾಡಿದ್ದೀರಾ?
+user: ಹಾ. ಏನು ಗೊತ್ತಿಲ್ಲರಿ.
+assistant:  ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured course ತಗೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ?
+user: ಅವರ ಮಮ್ಮಿ ಇದ್ದಾರೆನಾ? ಹಲೋ?
+assistant:  Hello, ನೀವು ಇದ್ದೀರಾ?
+user: ಹಾ, ಹಾ. ಅವರ ಮಮ್ಮಿನಾ?
+assistant:  ನಾನು ನಿಮ್ಮ query note ಮಾಡಿಕೊಂಡಿದ್ದೇನೆ, ನಮ್ಮ senior counsellor ಅವರಿಗೆ call ಮಾಡಿ details ಕೊಡುತ್ತಾರೆ.
+user: ಹಾ.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/5f995cfb-cd8b-442d-8367-e62f118b8881,completed,2026-09-12,4,Yes,"The conversation was between Riya from Parikshe and the user Amogh. Riya called to introduce Parikshe's online learning platform helping Karnataka students prepare for SSLC, PUC Science, PUC Commerce, and CA Foundation exams. She inquired about Amogh's current exam preparation and coaching support satisfaction. Amogh confirmed attending coaching and showed limited knowledge about Parikshe. Riya offered information on Parikshe's structured courses with live classes, study materials, tests, and doubt-solving support. The user asked an unclear question regarding ""their mom,"" after which Riya noted the query and informed that a senior counsellor would call with more details. The call ended with Riya wishing Amogh well in his preparation.",Qualified,,,,,,,,,,,,,No explicit enrollment intent expressed; the user only agreed to a counsellor follow-up and did not state they want to enroll now.,SSLC,"The user explicitly stated they are attending coaching/tuition (""ನಾನು ಕೋಚಿಂಗ್ ಮಾಡುತ್ತೇನೆ"", and confirmed with ""ಹಾ"").","User said 'ಎನು ಗೊತ್ತಿಲ್ಲರಿ' (I don't know anything) in response to being asked about Parikshe, indicating they are not aware.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,9f19ead9-a993-4585-a0aa-a3e57760110c,,2026-09-12T14:38:20.703085+00:00,2026-09-12T15:13:14.285365+00:00,outbound,plivo,128,31,Plivo,end_call_tool,Bharti Airtel - Karnataka,17522920-2a2f-40e4-8b65-a9e8ccdc629e,8.5,Parikshe,Lead Qualification,f817b02e-5dd7-4237-9f99-85bf23783524,128,"assistant: Hi, I am Riya. Am I Talking to Ambaraya ?
+user: ಹಲೋ.
+assistant: ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ
+user: ಹಲೋ, ಬಿಡಿ ಬಿಡಿ.
+user: ನಮಸ್ಕಾರ, ಕನ್ನಡ में बात करो.
+assistant:  ನಮಸ್ಕಾರ! ನಾನು Parikshe ಕಡೆಯಿಂದ call ಮಾಡ್ತಾ ಇದ್ದೇನೆ, Karnataka ನ students ಗೆ SSLC, PUC Science, PUC Commerce ಮತ್ತು CA Foundation preparation ಗೆ help ಮಾಡೋ online learning platform. ನಿಮ್ಮ two to three minutes ತಗೊಳ್ಳಬಹುದಾ?
+user: ಹಾ, ಮ್ಯಾಮ್.
+assistant: ನೀವು ಈಗ ಯಾವ
+user: ಆನ್‌ಲೈನ್ ಕ್ಲಾಸ್‌ಗೆ ಯಾವಾಗ ಅಪ್ಲೈ ಮಾಡೋದು? ಹಲೋ.
+assistant:  ನೀವು ಈಗ ಯಾವ exam ಗೆ prepare ಮಾಡ್ತಾ ಇದ್ದೀರಾ, SSLC Board Exams, PUC Science (KCET/NEET), PUC Commerce, ಅಥವಾ CA Foundation?
+user: ಪಿಯುಸಿ ಕಾಮರ್ಸ್.
+assistant:  ನೀವು ಈಗ ಯಾವುದಾದರೂ tuition, coaching, ಅಥವಾ other classes ತಗೊಳ್ತಾ ಇದ್ದೀರಾ? ಹೌದಾದ್ರೆ, ಅವರು ಕೊಡ್ತಾ ಇರೋ support ನಿಂದ ನೀವು satisfied ಆಗಿದ್ದೀರಾ?
+user: ಹಾ, ಮ್ಯಾಮ್.
+user: ಯಾವ ಕ್ಲಾಸ್ ತಗೊಂಡಿಲ್ಲ?
+assistant:  ನೀವು Parikshe ಬಗ್ಗೆ ಗೊತ್ತಾ? ನಮ್ಮ YouTube classes ನೋಡಿದ್ದೀರಾ ಅಥವಾ Parikshe App use ಮಾಡಿದ್ದೀರಾ?
+user: ಮಡಚಿ.
+assistant: ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured
+user: ಪರೀಕ್ಷಾ ಯೂಸ್ ಮಾಡಿ. ಹಲೋ.
+assistant:  ನೀವು live classes, study materials, regular tests, ಮತ್ತು doubt-solving support ಒಳಗೊಂಡ structured course ತಗೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ?
+user: ಇಲ್ಲ, ಮ್ಯಾಮ್.
+assistant:  ನೀವು ಈಗ Parikshe course ನಲ್ಲಿ enroll ಮಾಡ್ಕೊಳ್ಳಲು interested ಆಗಿದ್ದೀರಾ, ಅಥವಾ ನಮ್ಮ counsellor ನಿಮಗೆ call ಮಾಡಬೇಕಾ?
+user: ಅರ್ಥ ಆಗ್ತಾ ಇಲ್ಲ.
+assistant:  ನಮ್ಮ senior counsellರ್ ನಿಮಗೆ ಅದರ ಬಗ್ಗೆ call ಮಾಡಿ ವಿವರಿಸುತ್ತಾರೆ.
+user: ಓಕೆ, ಓಕೆ.
+assistant:  ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡಿ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು. ನಿಮ್ಮ preparation ಗೆ ಶುಭವಾಗಲಿ! ದಿನ ಚೆನ್ನಾಗಿ ಇರಲಿ!
+",https://api.bolna.ai/recordings/call/9f19ead9-a993-4585-a0aa-a3e57760110c,completed,2026-09-12,4,Yes,"The conversation was between an assistant named Riya and a user named Ambaraya, conducted in Kannada. Riya introduced an online learning platform called Parikshe that helps Karnataka students prepare for exams like SSLC, PUC Science, PUC Commerce, and CA Foundation. Ambaraya expressed interest in PUC Commerce preparation and confirmed currently attending tuition or coaching classes. Riya inquired about Ambaraya's familiarity with Parikshe and offered information about live classes, study materials, regular tests, and doubt-solving support. Ambaraya declined interest in enrolling immediately but agreed to receive a call from a senior counsellor for further details. The call concluded with Riya offering well wishes for Ambaraya's exam preparation.",Qualified,,,,,,,,,,,,,User did not express interest in enrolling immediately and said they did not understand; however they accepted a counsellor call for more details.,PUC Commerce,"User confirmed they are currently attending tuition/coaching (answered 'ಹಾ, ಮ್ಯಾಮ್.').",No clear confirmation of awareness; user response to Parikshe question ('ಮಡಚಿ') is ambiguous.,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,ab681b51-131e-401e-b3fd-5b6a7df16241,,2026-09-12T08:24:34.985003+00:00,2026-09-12T08:25:39.885638+00:00,outbound,plivo,41,6,Callee,Call recipient hungup,,1ef12b80-df8f-4ce4-bbdc-9f2eb61ca15a,3.4,RKDF University_7013,Lead Qualification,85fe675d-8825-45c8-a8bf-671783308a0b,41,"assistant: Hello,क्या मेरी बात Sana Ansariसे हो रही है
+user:  hello
+assistant:  Hello, मैं RKDF University से बोल रही हूँ। मैं आपको हमारे courses और admission के बारे में थोड़ी information देना चाहती हूँ। क्या आप मुझे दो से तीन minute का time दे सकते हैं?
+user: sir
+assistant:  Hello, क्या मैं जान सकती हूँ कि मैं किससे बात कर रही हूँ? आप student हैं या parent?
+user:  हम parent
+assistant:  बढ़िया, क्या आप अभी हमारे University में admission लेने के लिए देख रहे हैं?
+user:  तुम मेरे घर में आकर बात करना
+assistant: मैं समझती हूँ, लेकिन मैं एक voice AI agent हूँ और physical visit के लिए सक्षम नहीं हूँ। मैं
+",https://api.bolna.ai/recordings/call/ab681b51-131e-401e-b3fd-5b6a7df16241,completed,2026-09-12,4,Yes,"The conversation involved an assistant from RKDF University reaching out to a parent named Sana Ansari to provide information about courses and admissions. The assistant asked for a few minutes of the user's time to discuss admission options, but the user requested an in-person visit instead. The assistant explained that it is a voice AI agent and unable to make physical visits.",Qualified,,,,,,,,,RKDF University admissions (no specific course/program mentioned),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CALLBACK_YES_NO_USER_ASK,cf_ai_callback_request,Yes,No,The condition forbids treating the agent’s offer as evidence. The user gave no agreement and no callback cue.,fdae9047-6026-468d-8990-ce657a3a9b07,,2026-09-12T16:35:26.857034+00:00,2026-09-13T03:31:24.400490+00:00,outbound,plivo,32,7,Plivo,end_call_tool,Bharti Airtel - Delhi,22a29586-3799-4dfe-8e1a-8c8aecaafc91,3.4,Samalkha Group of Institutions_6681,LQ_Delhi,83a8f4fc-5b36-497a-9def-ced340ea346f,32,"assistant: नमस्ते, मेरा नाम नेहा है। क्या मेरी बात Irengbam Renedy जी से हो रही है?
+assistant: Hello, क्या आप अभी भी लाइन पर हैं?
+user:  उसी ai से बात नहीं करनी है
+assistant: समझ गई, हम आपको एक more convenient time पर contact करेंगे। क्या आप चाहेंगे कि हम आपसे किसी convenient time पर फिर से connect करें for a detailed discussion?
+",https://api.bolna.ai/recordings/call/fdae9047-6026-468d-8990-ce657a3a9b07,completed,2026-09-12,1,Yes,"The conversation was between the assistant, Neha, and the user. The assistant attempted to confirm if they were speaking to Irengbam Renedy and asked if the user was still on the line. The user responded that they did not want to speak with the AI assistant. The assistant acknowledged this and offered to contact the user again at a more convenient time for a detailed discussion.",Not Sure,,,Not Specified,,,,,,,,,,,,,,,,,,,Not Specified,,,,,,,,,,,,,,,,,Not Specified,No,,,No,Not Specified,Not Specified,Not Specified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
